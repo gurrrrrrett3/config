@@ -1,0 +1,61 @@
+{
+	id: "359806C6BBB5DCEA"
+	group: "18E070709623BFF7"
+	order_index: 0
+	filename: "mastery"
+	title: "Mastery"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Full Mastery"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Dedication at it's finest"
+			description: [
+				"Well, you did it!"
+				"I don't really know how, and I didn't expect anyone to finish it!"
+				"Amazing job!"
+			]
+			dependencies: [
+				"498C60E05B69F476"
+				"5419DA220AD71E5B"
+			]
+			size: 3.0d
+			id: "4D8C374AA5B0D481"
+			tasks: [{
+				id: "6761563F4BBEFBAD"
+				type: "checkmark"
+				title: "I'm done!"
+			}]
+			rewards: [{
+				id: "32DC7AD2AD7578A7"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["12FAFB4ECCDF10F9"]
+			size: 2.0d
+			id: "498C60E05B69F476"
+			tasks: [{
+				id: "7C5406587DFDB0F1"
+				type: "checkmark"
+				title: "Biomes o' Plenty Mastery"
+			}]
+		}
+		{
+			title: "Banger Alert"
+			x: 0.0d
+			y: 3.0d
+			id: "5419DA220AD71E5B"
+			tasks: [{
+				id: "200FD3B50325F5BB"
+				type: "item"
+				item: "biomesoplenty:music_disc_wanderer"
+			}]
+		}
+	]
+}

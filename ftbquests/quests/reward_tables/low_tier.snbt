@@ -1,0 +1,30 @@
+{
+	id: "36C0E943BB1A0A5E"
+	order_index: 0
+	title: "Low Tier"
+	loot_size: 1
+	rewards: [
+		{
+			xp: 100
+			type: "xp"
+			weight: 10
+		}
+		{
+			xp_levels: 5
+			type: "xp_levels"
+			weight: 10
+		}
+		{
+			xp_levels: 3
+			type: "xp_levels"
+			weight: 10
+		}
+		{
+			xp_levels: 1
+			type: "xp_levels"
+			weight: 10
+		}
+		{ item: "minecraft:diamond" }
+		{ item: "minecraft:spruce_log", count: 32 }
+	]
+}

@@ -1,0 +1,225 @@
+{
+	id: "399D7414D611498E"
+	group: "1E4122BA75971299"
+	order_index: 0
+	filename: "basics"
+	title: "Basics"
+	icon: "minecraft:writable_book"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:writable_book"
+			x: -7.0d
+			y: -4.0d
+			subtitle: "Failure to comply may lead to a bounty, or a visit from The Police"
+			id: "58E56962087D427A"
+			tasks: [{
+				id: "1B1D683A9ECDE889"
+				type: "checkmark"
+				title: "Sign off on these rules"
+			}]
+			rewards: [{
+				id: "41154C7F44F594BF"
+				type: "item"
+				item: "pamhc2foodextended:spagettiandmeatballsitem"
+				count: 5
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			dependencies: ["58E56962087D427A"]
+			id: "4F592C80E4DE5205"
+			tasks: [{
+				id: "7183184B4827BAF5"
+				type: "checkmark"
+				title: "Don't kill players without reason"
+			}]
+			rewards: [{
+				id: "4A7FFF6B5D6E2A71"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			hide_dependency_lines: false
+			dependencies: ["58E56962087D427A"]
+			id: "1A2685C21BEA6853"
+			tasks: [{
+				id: "79F02C1444AF4E2F"
+				type: "checkmark"
+				title: "Don't steal; from dead players, bases, shops, etc"
+			}]
+			rewards: [{
+				id: "1CD96601E9261EB3"
+				type: "item"
+				item: {
+					id: "minecraft:stone_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			subtitle: "But the builder may come after you ;p"
+			dependencies: ["58E56962087D427A"]
+			id: "582D390F1FAD0523"
+			tasks: [{
+				id: "6477DA50C5A8C514"
+				type: "checkmark"
+				title: "Anything not claimed is not protected, destruction of unclaimed builds is not a legal offense"
+			}]
+			rewards: [{
+				id: "15BEF68DA65283FE"
+				type: "item"
+				item: "minecraft:torch"
+				count: 16
+			}]
+		}
+		{
+			title: "Bounty?"
+			icon: "farmersdelight:canvas_sign"
+			x: -4.0d
+			y: -2.5d
+			description: ["Find the bounty office in town. Players can post bounties only if a crime has been commited. From then on, the player who brings in the wanted player, dead or alive, gets the bounty"]
+			dependencies: ["58E56962087D427A"]
+			id: "72AEA954431982A1"
+			tasks: [{
+				id: "3DC6B648A3FFFD85"
+				type: "checkmark"
+				title: "Bounty? The Police?"
+			}]
+			rewards: [{
+				id: "35EE3953DC2E41AD"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "securitycraft:taser"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -9.5d
+			y: -2.5d
+			description: ["The identity of the police officer(s) will rotate regularly. It's their duty to confiscate contraband, hunt down criminals, and investigate crimes. Litigation however, is the judge's job"]
+			dependencies: ["58E56962087D427A"]
+			id: "43D2DC2F683E6FB1"
+			tasks: [{
+				id: "5F0FE5CF2E34417A"
+				type: "checkmark"
+				title: "The Police?"
+			}]
+			rewards: [{
+				id: "64E3C3A31DB33522"
+				type: "item"
+				item: "chisel:terracotta/small_bricks"
+				count: 64
+			}]
+		}
+		{
+			icon: {
+				id: "vehicle:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -9.5d
+			y: -1.5d
+			description: ["This isn't a police state, criminals who maintain their innocence and come in peacfully have a right to a trial, held by the Judge, a rotating position like the Officer."]
+			dependencies: ["43D2DC2F683E6FB1"]
+			id: "1BFFF5203493B7FB"
+			tasks: [{
+				id: "7F191D664C200ADF"
+				type: "checkmark"
+				title: "Judge?"
+			}]
+			rewards: [{
+				id: "2A18308CD3852CE4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			icon: {
+				id: "eidolon:top_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -7.0d
+			y: 2.5d
+			subtitle: "Don't let it go to your head"
+			dependencies: [
+				"72AEA954431982A1"
+				"4F592C80E4DE5205"
+				"582D390F1FAD0523"
+				"1A2685C21BEA6853"
+				"1BFFF5203493B7FB"
+				"1217DD7D7F380146"
+			]
+			id: "29A4627B2E3C3897"
+			tasks: [{
+				id: "611A2AE56233D6FF"
+				type: "checkmark"
+				title: "Congrats on passing the crash course on server law!"
+			}]
+			rewards: [{
+				id: "6B92890E2AAC38E0"
+				type: "item"
+				item: "farmersdelight:cake_slice"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			description: ["The unlawful possesion and or manufacture of firearms is strictly prohibited. If you are found to have illegal firearms, and you refuse to surrender them, your life is forfeit and you could face serious fines."]
+			dependencies: ["58E56962087D427A"]
+			id: "1217DD7D7F380146"
+			tasks: [{
+				id: "6BA329DF07667C9A"
+				type: "checkmark"
+				title: "Do not manufacture firearms"
+			}]
+			rewards: [
+				{
+					id: "3E3B0FC77FDFF189"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 6
+				}
+				{
+					id: "271F9BEA12B83A16"
+					type: "item"
+					item: "minecraft:melon_seeds"
+					count: 6
+				}
+				{
+					id: "215A4396E69CAB79"
+					type: "item"
+					item: "minecraft:pumpkin_seeds"
+					count: 6
+				}
+			]
+		}
+	]
+}

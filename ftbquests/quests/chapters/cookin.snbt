@@ -1,0 +1,566 @@
+{
+	id: "63CB29124037A137"
+	group: "1ED0582200C67297"
+	order_index: 1
+	filename: "cookin"
+	title: "Cookin'"
+	icon: "blue_skies:cherry_pie"
+	subtitle: ["In the kitchen, wrist twistin' like a stir fry"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Le Festin"
+			x: -20.0d
+			y: -12.5d
+			subtitle: "Keep your kitchen well stocked"
+			description: [" "]
+			id: "6103FA396A3F2013"
+			tasks: [{
+				id: "30E21E58E9A11E50"
+				type: "item"
+				item: "farmersdelight:ratatouille"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "145A19AE18D07016"
+					type: "item"
+					item: "farmersdelight:potato_crate"
+					count: 8
+				}
+				{
+					id: "29829C7923B21677"
+					type: "item"
+					item: "farmersdelight:carrot_crate"
+					count: 8
+				}
+				{
+					id: "5E001D58F8D285A7"
+					type: "item"
+					item: "farmersdelight:onion_crate"
+					count: 8
+				}
+				{
+					id: "4B108A6F18B3C9D4"
+					type: "item"
+					item: "farmersdelight:cabbage_crate"
+					count: 8
+				}
+				{
+					id: "22BF028AE8392514"
+					type: "item"
+					item: "farmersdelight:tomato_crate"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "A good knife makes everything better"
+			x: -17.5d
+			y: -9.5d
+			subtitle: "Sweet, a buy-two-get-one deal!"
+			id: "7EE6013A63B566D9"
+			tasks: [
+				{
+					id: "71D3795F6B8846D5"
+					type: "item"
+					item: {
+						id: "farmersdelight:diamond_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "397BF2D39354164E"
+					type: "item"
+					item: {
+						id: "aquaculture:diamond_fillet_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "29D147A5211F9E22"
+				type: "item"
+				item: {
+					id: "occultism:butcher_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Everything but..."
+			x: -18.5d
+			y: -9.0d
+			subtitle: "Get it?"
+			id: "420EE36E4CDB55E3"
+			tasks: [
+				{
+					id: "5C7032E908C4B7B9"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+				{
+					id: "1C63143BCF4B668C"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+				}
+				{
+					id: "4EDCAB1E006442FF"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+				{
+					id: "555114C89F707917"
+					type: "item"
+					item: "cookingforblockheads:cabinet"
+				}
+				{
+					id: "10EAA1A14E53C970"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+			]
+			rewards: [{
+				id: "78B313BBF1F0A002"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+		}
+		{
+			title: "Why do you need two cutting boards?"
+			x: -16.5d
+			y: -9.0d
+			subtitle: "Shut up, that's why"
+			id: "6D976F1EAA26BBFE"
+			tasks: [
+				{
+					id: "6D092C3E6B6860CE"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "785DD67D10ABE218"
+					type: "item"
+					item: "pamhc2foodcore:cuttingboarditem"
+				}
+			]
+			rewards: [{
+				id: "7467F677571FBA77"
+				type: "item"
+				item: "cookingforblockheads:counter"
+			}]
+		}
+		{
+			x: -17.5d
+			y: -10.5d
+			subtitle: "You can cook just bout' anything in this sucker"
+			id: "3A6C754D2B943116"
+			tasks: [{
+				id: "1FA0E6561D6A83E8"
+				type: "item"
+				item: "culinaryconstruct:culinary_station"
+			}]
+			rewards: [{
+				id: "05D7502CC5966E14"
+				type: "item"
+				item: {
+					id: "culinaryconstruct:food_bowl"
+					Count: 1b
+					tag: {
+						SolidsSize: 4
+						Liquids: [16777215]
+						Size: 5
+						Saturation: 0.37333336f
+						Quality: 4
+						Ingredients: {
+							Items: [
+								{
+									Slot: 0b
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}
+								{
+									Slot: 1b
+									id: "upgrade_aquatic:mulberry"
+									Count: 1b
+								}
+								{
+									Slot: 2b
+									id: "minecraft:beef"
+									Count: 1b
+								}
+								{
+									Slot: 3b
+									id: "minecraft:mutton"
+									Count: 1b
+								}
+								{
+									Slot: 4b
+									id: "minecraft:dried_kelp"
+									Count: 1b
+								}
+							]
+						}
+						display: {
+							Name: "{\"text\":\"Abomination\"}"
+						}
+						Solids: {
+							Items: [
+								{
+									Slot: 0b
+									id: "upgrade_aquatic:mulberry"
+									Count: 1b
+								}
+								{
+									Slot: 1b
+									id: "minecraft:beef"
+									Count: 1b
+								}
+								{
+									Slot: 2b
+									id: "minecraft:mutton"
+									Count: 1b
+								}
+								{
+									Slot: 3b
+									id: "minecraft:dried_kelp"
+									Count: 1b
+								}
+							]
+						}
+						Base: {
+							id: "minecraft:bowl"
+							Count: 1b
+						}
+						Food: 9
+					}
+				}
+				count: 16
+			}]
+		}
+		{
+			x: -17.5d
+			y: -13.0d
+			subtitle: "How are you even going to eat this?"
+			description: ["Steak and Potatoes, Smoked Ham, Olive, Sweet Pickle, Mulberry Jelly."]
+			dependencies: ["3A6C754D2B943116"]
+			id: "63E3B1D5D64C30D1"
+			tasks: [{
+				id: "1A9C0B5346649139"
+				type: "item"
+				item: {
+					id: "culinaryconstruct:sandwich"
+					Count: 1b
+					tag: {
+						SolidsSize: 6
+						Size: 5
+						Saturation: 1.3724445f
+						Quality: 4
+						Ingredients: {
+							Items: [
+								{
+									Slot: 0b
+									id: "farmersdelight:steak_and_potatoes"
+									Count: 1b
+								}
+								{
+									Slot: 1b
+									id: "farmersdelight:smoked_ham"
+									Count: 1b
+								}
+								{
+									Slot: 2b
+									id: "pamhc2trees:oliveitem"
+									Count: 1b
+								}
+								{
+									Slot: 3b
+									id: "pamhc2foodextended:sweetpickleitem"
+									Count: 1b
+								}
+								{
+									Slot: 4b
+									id: "pamhc2foodextended:blackberryjellyitem"
+									Count: 1b
+								}
+							]
+						}
+						display: {
+							Name: "{\"text\":\"Dagwood\"}"
+						}
+						Solids: {
+							Items: [
+								{
+									Slot: 0b
+									id: "farmersdelight:steak_and_potatoes"
+									Count: 1b
+								}
+								{
+									Slot: 1b
+									id: "farmersdelight:smoked_ham"
+									Count: 1b
+								}
+								{
+									Slot: 2b
+									id: "pamhc2trees:oliveitem"
+									Count: 1b
+								}
+								{
+									Slot: 3b
+									id: "pamhc2foodextended:sweetpickleitem"
+									Count: 1b
+								}
+								{
+									Slot: 4b
+									id: "pamhc2foodextended:blackberryjellyitem"
+									Count: 1b
+								}
+								{
+									Slot: 5b
+									id: "minecraft:bread"
+									Count: 1b
+								}
+							]
+						}
+						Base: {
+							id: "minecraft:bread"
+							Count: 1b
+						}
+						Food: 9
+					}
+				}
+				count: 5L
+			}]
+			rewards: [{
+				id: "698750D48A7A75F2"
+				type: "item"
+				item: "cyclic:heart"
+				count: 3
+			}]
+		}
+		{
+			title: "Easy as ..."
+			x: -15.0d
+			y: -12.5d
+			subtitle: " "
+			id: "42C2B5FEC1B1EC0D"
+			tasks: [
+				{
+					id: "5ED960C80F134458"
+					type: "item"
+					item: "pamhc2foodcore:applepieitem"
+				}
+				{
+					id: "7A6BDCC3B086AE41"
+					type: "item"
+					item: "blue_skies:cherry_pie"
+				}
+				{
+					id: "09BDE0F5E021990C"
+					type: "item"
+					item: "pamhc2foodextended:shepardspieitem"
+				}
+				{
+					id: "2B123A90630CCAFA"
+					type: "item"
+					item: "pamhc2foodextended:pecanpieitem"
+				}
+				{
+					id: "511F3E0BCAE50D7E"
+					type: "item"
+					item: "pamhc2foodextended:mincepieitem"
+				}
+				{
+					id: "34DF571F4845561F"
+					type: "item"
+					item: "farmersdelight:shepherds_pie_block"
+				}
+				{
+					id: "7E74B7100E5AA227"
+					type: "item"
+					item: "pamhc2foodextended:mulberrypieitem"
+				}
+				{
+					id: "2143A688F6AC1AA6"
+					type: "item"
+					item: "pamhc2foodextended:cherrypieitem"
+				}
+				{
+					id: "591955DF68D31393"
+					type: "item"
+					item: "pamhc2foodextended:dragonfruitpieitem"
+				}
+				{
+					id: "3E79D564A1B8414C"
+					type: "item"
+					item: "minecraft:pumpkin_pie"
+				}
+			]
+			rewards: [{
+				id: "2FDC7F0E56E3B30C"
+				type: "item"
+				item: {
+					id: "cyclic:charm_ultimate"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Baking Competiton Award\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "A taste of chinese cuisine"
+			x: -20.0d
+			y: -7.0d
+			subtitle: "Expand your cultural horizons"
+			id: "369DDB17CCF9CFBC"
+			tasks: [
+				{
+					id: "6A8EB27D355E52BC"
+					type: "item"
+					item: "pamhc2foodextended:charsiuitem"
+				}
+				{
+					id: "2CF49101B1CBE7F1"
+					type: "item"
+					item: "pamhc2foodextended:cantonesegreensitem"
+				}
+				{
+					id: "7C01DF779DDB048E"
+					type: "item"
+					item: "pamhc2foodextended:cantonesenoodlesitem"
+				}
+				{
+					id: "41B2CFAD320AA271"
+					type: "item"
+					item: "pamhc2foodextended:cashewchickenitem"
+				}
+				{
+					id: "4ADD999D99031C1D"
+					type: "item"
+					item: "pamhc2foodextended:friedriceitem"
+				}
+				{
+					id: "00F73CF78639AC6C"
+					type: "item"
+					item: "pamhc2foodextended:chickenchowmeinitem"
+				}
+				{
+					id: "0A6E2F548AB52BAC"
+					type: "item"
+					item: "pamhc2foodextended:dimsumitem"
+				}
+			]
+			rewards: [
+				{
+					id: "49C719B315BE9971"
+					type: "item"
+					item: {
+						id: "minecraft:cat_spawn_egg"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Dessert\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "13D81E888CF958B7"
+					type: "item"
+					item: "pamhc2foodextended:soysauceitem"
+					count: 16
+				}
+				{
+					id: "57B9FCF906044637"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Vern's Favorite"
+			x: -17.5d
+			y: -6.5d
+			subtitle: "Fritters!"
+			id: "3622707735E8759D"
+			tasks: [{
+				id: "67C9DE7933A0B099"
+				type: "item"
+				item: "pamhc2foodextended:applefritteritem"
+				count: 32L
+			}]
+			rewards: [{
+				id: "148295FD74F9B9F4"
+				type: "item"
+				item: "cyclic:inventory_cake"
+			}]
+		}
+		{
+			title: "Legally distinct Coffee Chain©"
+			x: -15.0d
+			y: -7.0d
+			subtitle: "Don't sue"
+			id: "060925D680926F9D"
+			tasks: [
+				{
+					id: "22602C24D68786D0"
+					type: "item"
+					item: "pamhc2foodextended:pumpkinspicelatteitem"
+					count: 8L
+				}
+				{
+					id: "68657050B64D4767"
+					type: "item"
+					item: "pamhc2foodextended:espressoitem"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "29B11819AD4869AB"
+					type: "item"
+					item: {
+						id: "minecraft:paper"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Certificate of Barista Expertise\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "3FB7E3886969E745"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+		}
+	]
+}

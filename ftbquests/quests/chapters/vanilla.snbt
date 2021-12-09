@@ -1,0 +1,1379 @@
+{
+	id: "377149DB9D66832E"
+	group: "1E4122BA75971299"
+	order_index: 1
+	filename: "vanilla"
+	title: "Vanilla"
+	icon: "minecraft:grass_block"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Bloody Knuckles"
+			icon: "minecraft:oak_log"
+			x: -5.25d
+			y: -7.5d
+			subtitle: "Punch some wood"
+			description: ["Ow! That hurts!"]
+			dependencies: ["29A4627B2E3C3897"]
+			dependency_requirement: "all_started"
+			size: 1.5d
+			id: "7A4ADAB34D44E9C1"
+			tasks: [{
+				id: "0C71EB1FC9B953B8"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7956DBBA549115DA"
+				type: "random"
+				table_id: 3945409750687681118L
+			}]
+		}
+		{
+			title: "Rocky Start"
+			icon: "minecraft:cobblestone"
+			x: -6.5d
+			y: -7.5d
+			subtitle: "Three, take it or leave it"
+			dependencies: ["7A4ADAB34D44E9C1"]
+			dependency_requirement: "all_started"
+			id: "28BEE324C700883A"
+			tasks: [{
+				id: "68CEE27CAFA2A072"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 3L
+			}]
+			rewards: [{
+				id: "01638BFD8D83B0C8"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+			}]
+		}
+		{
+			title: "Heavy Metal"
+			icon: "minecraft:iron_ore"
+			x: -6.5d
+			y: -6.5d
+			subtitle: "Turnin' it up to 11!"
+			description: [""]
+			dependencies: ["28BEE324C700883A"]
+			id: "0EAA0944C2D7BFC7"
+			tasks: [{
+				id: "2C183140BEDAEB44"
+				type: "item"
+				title: "Any #forge:ores/iron"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ores/iron"
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "20C56DBE5EF06B55"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Smeltery"
+			icon: "minecraft:iron_ingot"
+			x: -6.5d
+			y: -5.5d
+			subtitle: "Smelt an iron ingot"
+			dependencies: ["0EAA0944C2D7BFC7"]
+			dependency_requirement: "one_started"
+			id: "659BBD96C355B0CC"
+			tasks: [{
+				id: "02BE00993482D79A"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			title: "DrEaM?"
+			icon: "minecraft:bucket"
+			x: -7.5d
+			y: -4.5d
+			subtitle: "What? Are you a speedrunner or something?"
+			description: [""]
+			dependencies: ["659BBD96C355B0CC"]
+			dependency_requirement: "one_completed"
+			id: "3552255DA028B438"
+			tasks: [{
+				id: "3AE63E7C31592CEE"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			title: "Slow and steady"
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.5d
+			y: -4.5d
+			subtitle: "This isn't a race!"
+			dependencies: ["659BBD96C355B0CC"]
+			id: "2C053267BFDF892A"
+			tasks: [{
+				id: "2961A4A2613B0964"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Bucket o' Spice"
+			x: -8.5d
+			y: -4.5d
+			subtitle: "Careful!"
+			dependencies: ["3552255DA028B438"]
+			id: "029CCF78B8F62FDA"
+			tasks: [{
+				id: "60392F92E8B24D78"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "Diamond in the rough"
+			x: -5.5d
+			y: -3.0d
+			subtitle: "Mine some diamond ore!"
+			description: [""]
+			dependencies: ["2C053267BFDF892A"]
+			id: "5A50F080AC03EE62"
+			tasks: [{
+				id: "63BBD03218A2F804"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			title: "Isn't it.. Diamond Pick?"
+			x: -7.0d
+			y: -3.0d
+			subtitle: "That's the advancement, right?"
+			dependencies: ["5A50F080AC03EE62"]
+			id: "70F01370945145C4"
+			tasks: [{
+				id: "21B4D3E9C3288B43"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Rock Hard Stone"
+			x: -8.5d
+			y: -3.0d
+			subtitle: "Slow mining!"
+			dependencies: ["70F01370945145C4"]
+			id: "078C7AA2E69359EF"
+			tasks: [{
+				id: "44A2B60599276F24"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			title: "Gives you hell"
+			x: -10.0d
+			y: -3.0d
+			subtitle: "Careful! It's hot in here!"
+			dependencies: [
+				"029CCF78B8F62FDA"
+				"078C7AA2E69359EF"
+			]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "187D0A162F7ADC3B"
+			tasks: [{
+				id: "629575DAF9CD1F71"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			title: "Butter"
+			x: -4.5d
+			y: -2.0d
+			subtitle: "I CAN belive it's butter!"
+			dependencies: [
+				"12FED4D8ED740D42"
+				"0A29AB4F1EAA1360"
+			]
+			dependency_requirement: "one_completed"
+			id: "4E74119AAEC844EE"
+			tasks: [{
+				id: "0512997FD4349901"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			title: "Gold!"
+			x: -4.5d
+			y: -3.0d
+			subtitle: "We've struck gold!"
+			dependencies: ["2C053267BFDF892A"]
+			id: "12FED4D8ED740D42"
+			tasks: [{
+				id: "41D7AAE7290C7283"
+				type: "item"
+				item: "minecraft:gold_ore"
+			}]
+		}
+		{
+			title: "Hot Gold!"
+			x: -8.5d
+			y: -2.0d
+			subtitle: "I prefer my gold from the nether!"
+			dependencies: ["187D0A162F7ADC3B"]
+			id: "0A29AB4F1EAA1360"
+			tasks: [{
+				id: "628526C29DAA8C10"
+				type: "item"
+				item: "minecraft:gold_nugget"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: [
+				"4E74119AAEC844EE"
+				"7212EEFF5826D86B"
+			]
+			id: "1738A6D4111F07EB"
+			tasks: [{
+				id: "2DCF05288126D310"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["5C15AD7D7943397D"]
+			id: "7212EEFF5826D86B"
+			tasks: [{
+				id: "2585692777D2AA72"
+				type: "kill"
+				title: "Ender Ender"
+				entity: "minecraft:enderman"
+				value: 1L
+			}]
+		}
+		{
+			title: "Blaze's Rod"
+			x: -8.5d
+			y: -1.0d
+			subtitle: "Thick and Long"
+			dependencies: ["334075C763A7D670"]
+			id: "0583533AB15615E0"
+			tasks: [{
+				id: "77E5F3F32BBDEDFA"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			title: "Blaze Burner"
+			x: -9.5d
+			y: -1.0d
+			subtitle: "Now don't be increasing your drop rates..."
+			dependencies: ["187D0A162F7ADC3B"]
+			id: "334075C763A7D670"
+			tasks: [{
+				id: "1DDC567FEC78437D"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			dependencies: ["0583533AB15615E0"]
+			id: "5E256C2D416C5369"
+			tasks: [{
+				id: "2CDB37214B3ADC81"
+				type: "item"
+				item: "minecraft:blaze_powder"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: [
+				"5E256C2D416C5369"
+				"1738A6D4111F07EB"
+			]
+			id: "3EFDD44EFC50EA7B"
+			tasks: [{
+				id: "632E9A71825B410B"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			dependencies: ["3EFDD44EFC50EA7B"]
+			size: 2.0d
+			id: "7D36B52B43C61EC3"
+			tasks: [{
+				id: "2A2A33516021249D"
+				type: "dimension"
+				icon: "minecraft:end_crystal"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			dependencies: ["659BBD96C355B0CC"]
+			id: "51FD60A741B243CF"
+			tasks: [{
+				id: "7B11592348117B97"
+				type: "item"
+				item: {
+					id: "minecraft:iron_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:wheat_seeds"
+			x: -9.75d
+			y: -6.0d
+			description: [""]
+			dependencies: ["51FD60A741B243CF"]
+			size: 1.5d
+			id: "22C739439BBBCFD0"
+			tasks: [{
+				id: "22D7CA45B4F70082"
+				type: "item"
+				title: "Any #forge:seeds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.5d
+			dependencies: ["22C739439BBBCFD0"]
+			id: "328963ACA3AE0133"
+			tasks: [{
+				id: "15F2563C9FE9D6EB"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -7.5d
+			dependencies: ["328963ACA3AE0133"]
+			id: "07EB2FBF05C3DC65"
+			tasks: [{
+				id: "3669C21ADFEB601E"
+				type: "item"
+				item: "minecraft:bread"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -7.5d
+			dependencies: ["22C739439BBBCFD0"]
+			id: "47AA2C61886EE005"
+			tasks: [{
+				id: "27EF3D95201EE883"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -7.5d
+			dependencies: ["22C739439BBBCFD0"]
+			id: "0372E88933A73DE3"
+			tasks: [{
+				id: "747E6C30A9FA8E84"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+		}
+		{
+			title: "Stabby Stabby"
+			x: -3.5d
+			y: -3.0d
+			subtitle: "Careful! It's sharp!"
+			description: [""]
+			dependencies: ["2C053267BFDF892A"]
+			id: "5C15AD7D7943397D"
+			tasks: [{
+				id: "434CF520D1E8A208"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["2C053267BFDF892A"]
+			id: "6271180642560486"
+			tasks: [{
+				id: "63EA2F1EEB2B8762"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			title: "Murder the Queen"
+			x: -6.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: ["You've just triggered it."]
+			dependencies: ["7D36B52B43C61EC3"]
+			hide_text_until_complete: true
+			size: 2.0d
+			id: "5DAC75673B010056"
+			tasks: [{
+				id: "30B865CF1B03F9BB"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["6271180642560486"]
+			id: "32FD0D4167D5705C"
+			tasks: [{
+				id: "779EDB4D02822D63"
+				type: "item"
+				item: "minecraft:piston"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["6271180642560486"]
+			id: "34721381F60D0016"
+			tasks: [{
+				id: "4BE0910D619EF4A8"
+				type: "item"
+				item: "minecraft:repeater"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["6271180642560486"]
+			id: "7685E268D43E97CB"
+			tasks: [{
+				id: "2300051AE8FB6C5D"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			subtitle: "Always watching Mike Wazowski, always watching..."
+			dependencies: ["6271180642560486"]
+			id: "7BAA2E1BD1982F3B"
+			tasks: [{
+				id: "6613D40907F8F715"
+				type: "item"
+				item: "minecraft:observer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["6271180642560486"]
+			id: "33D4C2AF9384A1F7"
+			tasks: [{
+				id: "01CEC65580DD1833"
+				type: "item"
+				item: "minecraft:redstone_torch"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["6271180642560486"]
+			id: "70B733BA1C483751"
+			tasks: [{
+				id: "00AAEEAE4F405892"
+				type: "item"
+				item: "minecraft:dropper"
+			}]
+		}
+		{
+			title: "Noise Machine"
+			x: 0.0d
+			y: -3.5d
+			subtitle: "Ding Ding Ding Ding Ding "
+			dependencies: ["6271180642560486"]
+			id: "27C26014A5C4465D"
+			tasks: [{
+				id: "3AF028D4D9B54E97"
+				type: "item"
+				item: "minecraft:note_block"
+			}]
+		}
+		{
+			title: "Hot Warts"
+			x: -11.5d
+			y: -4.5d
+			subtitle: "Are they spicy?"
+			description: [""]
+			dependencies: ["187D0A162F7ADC3B"]
+			id: "10D5C1C987218414"
+			tasks: [{
+				id: "58F7C1EE641E606F"
+				type: "item"
+				item: "minecraft:nether_wart"
+			}]
+		}
+		{
+			title: "Motion of the Potion"
+			x: -16.5d
+			y: -6.0d
+			subtitle: "Get brewing!"
+			description: [""]
+			dependencies: ["10D5C1C987218414"]
+			size: 1.5d
+			id: "704848D4A1DD4AF7"
+			tasks: [{
+				id: "673ED4D6F493BA47"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+		}
+		{
+			title: "Very Expensive Carrot"
+			x: -14.0d
+			y: -7.5d
+			subtitle: "Why did you make this"
+			dependencies: [
+				"704848D4A1DD4AF7"
+				"47AA2C61886EE005"
+			]
+			id: "3D265E077D96EBAA"
+			tasks: [{
+				id: "41B916ED3D4D2220"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
+		}
+		{
+			title: "Now You See Me..."
+			x: -14.0d
+			y: -9.5d
+			subtitle: "We do a little trolling"
+			dependencies: ["6478613A5A057C39"]
+			id: "5D46A3CA8C3F42B9"
+			tasks: [{
+				id: "222497670339A6CF"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:invisibility"
+					}
+				}
+			}]
+		}
+		{
+			title: "Let there be light!"
+			x: -14.0d
+			y: -8.5d
+			subtitle: "Make a night vision potion"
+			dependencies: ["3D265E077D96EBAA"]
+			id: "6478613A5A057C39"
+			tasks: [{
+				id: "36FD052379A78E73"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:night_vision"
+					}
+				}
+			}]
+		}
+		{
+			title: "Yes this is sugar"
+			x: -15.0d
+			y: -7.5d
+			subtitle: "Did you think that it was something else?"
+			dependencies: ["704848D4A1DD4AF7"]
+			id: "57E74A30B7BC9872"
+			tasks: [{
+				id: "4C535D685D5C01CB"
+				type: "item"
+				item: "minecraft:sugar"
+			}]
+		}
+		{
+			title: "Sonic"
+			x: -15.0d
+			y: -8.5d
+			subtitle: "I. Am. Speed."
+			dependencies: ["57E74A30B7BC9872"]
+			id: "329E9ECE35408E08"
+			tasks: [{
+				id: "4AE7E59137C08D93"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+			}]
+		}
+		{
+			title: "Goooo Slowwwww"
+			x: -15.0d
+			y: -9.5d
+			subtitle: "Like a snail"
+			dependencies: ["329E9ECE35408E08"]
+			id: "43016C74EF396F04"
+			tasks: [{
+				id: "6801A6188C2E7BA8"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:slowness"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -4.5d
+			dependencies: ["704848D4A1DD4AF7"]
+			id: "326373B858F75FDF"
+			tasks: [{
+				id: "6FC84AB40D15BA40"
+				type: "item"
+				item: "minecraft:magma_cream"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -3.5d
+			dependencies: ["326373B858F75FDF"]
+			id: "5A8AB604C7D99507"
+			tasks: [{
+				id: "54884FA236DF9DD2"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			title: "Shiny Melons!"
+			x: -16.0d
+			y: -7.5d
+			subtitle: "What do these taste like?"
+			dependencies: ["704848D4A1DD4AF7"]
+			id: "2468AC8916A71A0A"
+			tasks: [{
+				id: "36197E64406818AC"
+				type: "item"
+				item: "minecraft:glistering_melon_slice"
+			}]
+		}
+		{
+			title: "MEDIC!!!"
+			x: -16.0d
+			y: -8.5d
+			subtitle: "Doctor in a bottle"
+			dependencies: ["2468AC8916A71A0A"]
+			id: "601489146839A868"
+			tasks: [{
+				id: "2EF66680E8D50A90"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+			}]
+		}
+		{
+			title: "Yeouch!"
+			x: -16.0d
+			y: -9.5d
+			subtitle: "Don't drink this!"
+			dependencies: ["601489146839A868"]
+			id: "52DE9880AA2DBFDB"
+			tasks: [{
+				id: "57DF807EDEE5C4BE"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:harming"
+					}
+				}
+			}]
+		}
+		{
+			title: "Sad Ghast"
+			x: -17.0d
+			y: -7.5d
+			subtitle: "Why did you make him cry?"
+			description: [
+				"Knock Knock!"
+				"Who's there?"
+				"Boo."
+				"Boo who?"
+				"Why are you crying?"
+			]
+			dependencies: ["704848D4A1DD4AF7"]
+			id: "6E2F6B3354894C85"
+			tasks: [{
+				id: "2861EFC1F6818DCE"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -8.5d
+			subtitle: "Heal Slowly!"
+			dependencies: ["6E2F6B3354894C85"]
+			id: "79F480C862A62341"
+			tasks: [{
+				id: "62A1BC9A7B764B6F"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:regeneration"
+					}
+				}
+			}]
+		}
+		{
+			title: "Bleach"
+			x: -18.0d
+			y: -8.5d
+			subtitle: "Do not drink!"
+			dependencies: ["51089ACAD2E6B5B5"]
+			id: "4067381137D59106"
+			tasks: [{
+				id: "1A4C573317CBCD3E"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:poison"
+					}
+				}
+			}]
+		}
+		{
+			x: -17.0d
+			y: -4.5d
+			dependencies: ["704848D4A1DD4AF7"]
+			id: "499F48A5C65E6E6B"
+			tasks: [{
+				id: "65CBF87D46C14AF2"
+				type: "item"
+				item: "minecraft:rabbit_foot"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -3.5d
+			dependencies: ["499F48A5C65E6E6B"]
+			id: "5FBBC2DB585F57F6"
+			tasks: [{
+				id: "18BC430AD21B3C55"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:leaping"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -6.5d
+			dependencies: ["22C739439BBBCFD0"]
+			id: "67841355F97C26B5"
+			tasks: [{
+				id: "6DAF935189BE461B"
+				type: "item"
+				item: "minecraft:sugar_cane"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -4.5d
+			dependencies: ["704848D4A1DD4AF7"]
+			id: "08277D2B33165B31"
+			tasks: [{
+				id: "12DB202169CBDEF9"
+				type: "item"
+				item: "minecraft:fermented_spider_eye"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -3.5d
+			dependencies: ["08277D2B33165B31"]
+			id: "2E5F6377E2FC470C"
+			tasks: [{
+				id: "49E374E5E0373520"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.0d
+			y: -4.5d
+			dependencies: ["704848D4A1DD4AF7"]
+			id: "3AAD5FA12C145256"
+			tasks: [{
+				id: "12F59D700062662E"
+				type: "item"
+				item: {
+					id: "minecraft:turtle_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -16.0d
+			y: -3.5d
+			dependencies: ["3AAD5FA12C145256"]
+			id: "455BDC6EBBF32190"
+			tasks: [{
+				id: "73239568ADC80B72"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:turtle_master"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 3.0d
+			dependencies: ["5DAC75673B010056"]
+			id: "6A68361E8EAD8C04"
+			tasks: [{
+				id: "53BC4F94A37189FF"
+				type: "item"
+				item: "minecraft:shulker_shell"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			dependencies: ["5DAC75673B010056"]
+			id: "0BC33E87CC8BFE79"
+			tasks: [{
+				id: "28BB47CA985AF933"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 4.0d
+			dependencies: ["0BC33E87CC8BFE79"]
+			id: "6B8A815E868C712C"
+			tasks: [{
+				id: "03F3D21822890B7C"
+				type: "item"
+				item: "minecraft:popped_chorus_fruit"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 3.0d
+			dependencies: [
+				"6B8A815E868C712C"
+				"6A68361E8EAD8C04"
+			]
+			id: "509DC82A8E05F9CF"
+			tasks: [{
+				id: "213F75B91262F3B1"
+				type: "item"
+				item: "minecraft:end_rod"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			dependencies: ["6A68361E8EAD8C04"]
+			id: "15FA128CE70E4CC6"
+			tasks: [{
+				id: "3EF9ADFEAF4AF761"
+				type: "item"
+				item: "minecraft:shulker_box"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			dependencies: ["6A68361E8EAD8C04"]
+			id: "03E3B5A83FCCF2B1"
+			tasks: [{
+				id: "65181520E4142EBF"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.0d
+			dependencies: ["5DAC75673B010056"]
+			id: "4177724440AC3CB7"
+			tasks: [{
+				id: "232C30D62B3E8EBD"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -2.0d
+			dependencies: ["187D0A162F7ADC3B"]
+			id: "6C9ED9EC3FFC4691"
+			tasks: [{
+				id: "72CA1EEDD83F59B2"
+				type: "item"
+				item: "minecraft:music_disc_pigstep"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 0.0d
+			id: "7E5E04DDA59D8B7E"
+			tasks: [{
+				id: "2DD2EA09C88E1C98"
+				type: "item"
+				item: "minecraft:music_disc_13"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -2.0d
+			id: "1483C518E14A0510"
+			tasks: [{
+				id: "4113FEA4430B56FA"
+				type: "item"
+				item: "minecraft:music_disc_blocks"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -2.0d
+			id: "100058678CFE6DF1"
+			tasks: [{
+				id: "55B877AC9B5CB715"
+				type: "item"
+				item: "minecraft:music_disc_chirp"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -1.0d
+			id: "6665807E4957BF2D"
+			tasks: [{
+				id: "1C66DF4C937B2C38"
+				type: "item"
+				item: "minecraft:music_disc_strad"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -1.0d
+			id: "5DA6951D2522C5E5"
+			tasks: [{
+				id: "518835D311E3B320"
+				type: "item"
+				item: "minecraft:music_disc_stal"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -1.0d
+			id: "4CBCE6981E4637B4"
+			tasks: [{
+				id: "0C4597F6CB53B4C4"
+				type: "item"
+				item: "minecraft:music_disc_mellohi"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -1.0d
+			id: "24EC84ACFBEE9735"
+			tasks: [{
+				id: "47FCA9A7984BA166"
+				type: "item"
+				item: "minecraft:music_disc_far"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -2.0d
+			id: "4BAD48DA4923DE26"
+			tasks: [{
+				id: "781B57CF15EADBD9"
+				type: "item"
+				item: "minecraft:music_disc_ward"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 0.0d
+			id: "3AB65800A9E208DC"
+			tasks: [{
+				id: "1070FFAA77BD2453"
+				type: "item"
+				item: "minecraft:music_disc_wait"
+			}]
+		}
+		{
+			x: -15.0d
+			y: 0.0d
+			id: "02C0874ACA29E2B9"
+			tasks: [{
+				id: "1B1D44920BB258A1"
+				type: "item"
+				item: "minecraft:music_disc_11"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -4.5d
+			dependencies: ["704848D4A1DD4AF7"]
+			id: "7150D22A33D9C814"
+			tasks: [{
+				id: "334D4E3CF5FA8285"
+				type: "item"
+				item: "minecraft:phantom_membrane"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: [
+				"Girl are you a slimeball?"
+				"Because you make my piston sticky!"
+			]
+			dependencies: ["32FD0D4167D5705C"]
+			id: "04F6A90EB415AD18"
+			tasks: [{
+				id: "2F379A55CF2ADCC9"
+				type: "item"
+				item: "minecraft:sticky_piston"
+			}]
+		}
+		{
+			title: "Tasty!"
+			x: -18.0d
+			y: -7.5d
+			subtitle: "Now eat a thousand of them!"
+			dependencies: ["704848D4A1DD4AF7"]
+			id: "51089ACAD2E6B5B5"
+			tasks: [{
+				id: "48B15A05C5612272"
+				type: "item"
+				item: "minecraft:spider_eye"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -4.5d
+			dependencies: ["704848D4A1DD4AF7"]
+			id: "37590A04A8AEE31C"
+			tasks: [{
+				id: "707D34F6018C6B10"
+				type: "item"
+				item: "minecraft:pufferfish"
+			}]
+		}
+		{
+			icon: "minecraft:brewing_stand"
+			x: -18.0d
+			y: -11.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"5A8AB604C7D99507"
+				"52DE9880AA2DBFDB"
+				"601489146839A868"
+				"5D46A3CA8C3F42B9"
+				"5FBBC2DB585F57F6"
+				"6478613A5A057C39"
+				"4067381137D59106"
+				"79F480C862A62341"
+				"329E9ECE35408E08"
+				"455BDC6EBBF32190"
+				"2E5F6377E2FC470C"
+				"6801A6188C2E7BA8"
+				"22CF2C3899956D81"
+			]
+			size: 1.5d
+			id: "5BCA222165C7207C"
+			tasks: [{
+				id: "01897E5ECD772CC7"
+				type: "checkmark"
+				title: "Brewing Mastery"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -3.5d
+			dependencies: ["7150D22A33D9C814"]
+			id: "22CF2C3899956D81"
+			tasks: [{
+				id: "45FD0007FC1D2A79"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:slow_falling"
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:music_disc_cat"
+			x: -16.5d
+			y: -11.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"4CBCE6981E4637B4"
+				"3AB65800A9E208DC"
+				"4BAD48DA4923DE26"
+				"5DA6951D2522C5E5"
+				"1483C518E14A0510"
+				"7E5E04DDA59D8B7E"
+				"100058678CFE6DF1"
+				"02C0874ACA29E2B9"
+				"6C9ED9EC3FFC4691"
+				"24EC84ACFBEE9735"
+				"6665807E4957BF2D"
+			]
+			size: 1.5d
+			id: "527AF75C4FDCD6BA"
+			tasks: [{
+				id: "1B9216EBE74E0D6B"
+				type: "checkmark"
+				title: "Music Disc Mastery"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -3.5d
+			dependencies: ["37590A04A8AEE31C"]
+			id: "0213CEAF1EB80C69"
+			tasks: [{
+				id: "343A82842F7F500D"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water_breathing"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -1.0d
+			dependencies: ["187D0A162F7ADC3B"]
+			id: "238D32E00CA5FE36"
+			tasks: [{
+				id: "54166DF894234DA9"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -11.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"11AA6129980FCB85"
+				"659BBD96C355B0CC"
+				"6271180642560486"
+				"5A50F080AC03EE62"
+				"4E74119AAEC844EE"
+				"2B51B290176477F1"
+				"0FC90CF6CC12CBD8"
+			]
+			size: 1.5d
+			id: "2078BF60832B3BDD"
+			tasks: [{
+				id: "1DFD4C8D4CDFE28E"
+				type: "checkmark"
+				title: "Ore Mastery"
+				icon: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			dependencies: ["2C053267BFDF892A"]
+			id: "2B51B290176477F1"
+			tasks: [{
+				id: "724741E83AADE53C"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			dependencies: ["659BBD96C355B0CC"]
+			id: "11AA6129980FCB85"
+			tasks: [{
+				id: "764FBD8C324208F4"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			dependencies: ["238D32E00CA5FE36"]
+			id: "0FC90CF6CC12CBD8"
+			tasks: [{
+				id: "0624CB34AFDC7DDC"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -12.0d
+			shape: "hexagon"
+			dependencies: [
+				"5BCA222165C7207C"
+				"2078BF60832B3BDD"
+				"527AF75C4FDCD6BA"
+			]
+			size: 3.0d
+			id: "37F5BD75229A4D47"
+			tasks: [{
+				id: "470B3101CCBEAF4D"
+				type: "checkmark"
+				title: "Vanilla Mastery"
+				icon: "minecraft:grass_block"
+			}]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: -13.5d
+			y: -11.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"509DC82A8E05F9CF"
+				"03E3B5A83FCCF2B1"
+				"15FA128CE70E4CC6"
+			]
+			size: 1.5d
+			id: "51EFB9C87A0A79A9"
+			tasks: [{
+				id: "4492146CC7DD8544"
+				type: "checkmark"
+				title: "End Mastery"
+			}]
+		}
+	]
+}
