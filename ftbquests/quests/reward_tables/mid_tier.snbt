@@ -1,0 +1,7 @@
+{
+	id: "526E2E3E261A1B0F"
+	order_index: 1
+	title: "Mid Tier"
+	loot_size: 1
+	rewards: [{ item: "minecraft:obsidian", count: 25 }]
+}

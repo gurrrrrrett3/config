@@ -1,0 +1,26 @@
+{
+	id: "7AD9127370CEC02F"
+	order_index: 3
+	title: "high tier"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:diamond", count: 8 }
+		{ item: "mekanism:ingot_refined_obsidian", count: 2 }
+		{ item: "majruszs_difficulty:recall_potion" }
+		{
+			item: {
+				id: "mekanism:elite_energy_cube"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "64000000"
+						}]
+					}
+				}
+			}
+		}
+		{ item: "alexsmobs:spawn_egg_mungus", count: 8 }
+	]
+}

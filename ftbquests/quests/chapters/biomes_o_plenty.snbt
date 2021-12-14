@@ -17,8 +17,14 @@
 				icon: "minecraft:snow_block"
 				biome: "biomesoplenty:alps_foothills"
 			}]
+			rewards: [{
+				id: "0821CD89165C2C64"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "minecraft:gravel"
 			x: -2.0d
 			y: -1.0d
 			id: "1726D55F3E87AA0F"
@@ -26,6 +32,11 @@
 				id: "3D86A8C87B66C55F"
 				type: "biome"
 				biome: "biomesoplenty:gravel_beach"
+			}]
+			rewards: [{
+				id: "31CF846833AEF4C2"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -38,6 +49,11 @@
 				icon: "minecraft:apple"
 				biome: "biomesoplenty:orchard"
 			}]
+			rewards: [{
+				id: "39DA55272F09EB4D"
+				type: "loot"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 0.0d
@@ -48,6 +64,11 @@
 				type: "biome"
 				icon: "biomesoplenty:redwood_wood"
 				biome: "biomesoplenty:redwood_forest_edge"
+			}]
+			rewards: [{
+				id: "20966D8E022AAF52"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -60,6 +81,11 @@
 				icon: "architects_palette:polished_packed_ice"
 				biome: "biomesoplenty:alps"
 			}]
+			rewards: [{
+				id: "258E751897D350ED"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: -2.0d
@@ -70,6 +96,11 @@
 				type: "biome"
 				icon: "biomesoplenty:spanish_moss"
 				biome: "biomesoplenty:bayou"
+			}]
+			rewards: [{
+				id: "0C9CA330F237A8E4"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -82,6 +113,11 @@
 				type: "biome"
 				biome: "biomesoplenty:cherry_blossom_grove"
 			}]
+			rewards: [{
+				id: "2EE3054A4C995D21"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 0.0d
@@ -92,6 +128,11 @@
 				type: "biome"
 				icon: "biomesoplenty:fir_sapling"
 				biome: "biomesoplenty:coniferous_forest"
+			}]
+			rewards: [{
+				id: "554BB8AF88052D30"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -104,6 +145,11 @@
 				icon: "environmental:tall_dead_bush"
 				biome: "biomesoplenty:dead_forest"
 			}]
+			rewards: [{
+				id: "7E12477B605A3424"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			icon: "minecraft:red_sand"
@@ -114,6 +160,11 @@
 				id: "31678CEDA1820BD5"
 				type: "biome"
 				biome: "biomesoplenty:dryland"
+			}]
+			rewards: [{
+				id: "7ADAD1C338A9F689"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -126,6 +177,11 @@
 				icon: "minecraft:brown_mushroom"
 				biome: "biomesoplenty:fungal_jungle"
 			}]
+			rewards: [{
+				id: "230E3F7E2951A42D"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 1.0d
@@ -136,6 +192,11 @@
 				type: "biome"
 				icon: "biomesoplenty:wildflower"
 				biome: "biomesoplenty:grove"
+			}]
+			rewards: [{
+				id: "32C71A4DF557B31B"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -148,8 +209,14 @@
 				icon: "cyclic:cloud"
 				biome: "biomesoplenty:highland"
 			}]
+			rewards: [{
+				id: "41C27EB1A2C60F17"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "minecraft:spruce_leaves"
 			x: -2.0d
 			y: -2.0d
 			id: "34EAE40E8345F1DC"
@@ -157,6 +224,11 @@
 				id: "6F51EEE796BF2408"
 				type: "biome"
 				biome: "biomesoplenty:jade_cliffs"
+			}]
+			rewards: [{
+				id: "7DF9567F452582A4"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -169,6 +241,11 @@
 				icon: "biomesoplenty:lavender"
 				biome: "biomesoplenty:lavender_field"
 			}]
+			rewards: [{
+				id: "6E3395C20138C378"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 1.0d
@@ -179,6 +256,11 @@
 				type: "biome"
 				icon: "minecraft:sand"
 				biome: "biomesoplenty:lush_desert"
+			}]
+			rewards: [{
+				id: "114CFF90C72F20E8"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -191,8 +273,14 @@
 				icon: "minecraft:dandelion"
 				biome: "biomesoplenty:meadow"
 			}]
+			rewards: [{
+				id: "355101729BFD5663"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "biomesoplenty:magic_sapling"
 			x: -1.0d
 			y: -2.0d
 			id: "74C86E8EB4315044"
@@ -201,8 +289,14 @@
 				type: "biome"
 				biome: "biomesoplenty:mystic_grove"
 			}]
+			rewards: [{
+				id: "585C23824C17315C"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "biomesoplenty:umbran_sapling"
 			x: -2.0d
 			y: -3.0d
 			id: "5A2B543B2647269B"
@@ -210,6 +304,11 @@
 				id: "09B023C02D27F730"
 				type: "biome"
 				biome: "biomesoplenty:ominous_woods"
+			}]
+			rewards: [{
+				id: "157F4ADBB21069FA"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -222,8 +321,14 @@
 				icon: "minecraft:acacia_sapling"
 				biome: "biomesoplenty:prairie"
 			}]
+			rewards: [{
+				id: "5D656685F5F461BC"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "biomesoplenty:mahogany_sapling"
 			x: 2.0d
 			y: -2.0d
 			id: "6B2E2AE9102F2562"
@@ -232,8 +337,14 @@
 				type: "biome"
 				biome: "biomesoplenty:rainforest"
 			}]
+			rewards: [{
+				id: "61EA7C0CE092A3DA"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "biomesoplenty:redwood_sapling"
 			x: 1.0d
 			y: -2.0d
 			id: "1F27A0EE8704A07C"
@@ -242,8 +353,14 @@
 				type: "biome"
 				biome: "biomesoplenty:redwood_forest"
 			}]
+			rewards: [{
+				id: "58343D2AAE720AD3"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "minecraft:grass"
 			x: 0.0d
 			y: -2.0d
 			id: "6BE073F0F4AAE6BC"
@@ -251,6 +368,11 @@
 				id: "2902353095F0FD80"
 				type: "biome"
 				biome: "biomesoplenty:scrubland"
+			}]
+			rewards: [{
+				id: "61DBB5576658C6EA"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -263,6 +385,11 @@
 				icon: "biomesoplenty:yellow_autumn_leaves"
 				biome: "biomesoplenty:seasonal_forest"
 			}]
+			rewards: [{
+				id: "3599EB0E2614442F"
+				type: "loot"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: -2.0d
@@ -274,6 +401,11 @@
 				icon: "atum:shrub"
 				biome: "biomesoplenty:shrubland"
 			}]
+			rewards: [{
+				id: "5D367039B549CD86"
+				type: "loot"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 2.0d
@@ -284,6 +416,11 @@
 				type: "biome"
 				icon: "minecraft:snow_block"
 				biome: "biomesoplenty:snowy_coniferous_forest"
+			}]
+			rewards: [{
+				id: "09A778823C0F804B"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -297,8 +434,14 @@
 				icon: "minecraft:snow_block"
 				biome: "biomesoplenty:tundra"
 			}]
+			rewards: [{
+				id: "2DDF5C30CB34A13C"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "environmental:willow_sapling"
 			x: -1.0d
 			y: -3.0d
 			id: "745F3C2EC137C6A1"
@@ -307,15 +450,10 @@
 				type: "biome"
 				biome: "biomesoplenty:wetland"
 			}]
-		}
-		{
-			x: 1.0d
-			y: -3.0d
-			id: "636F99A8C3AE89EA"
-			tasks: [{
-				id: "5640488633075755"
-				type: "biome"
-				biome: "biomesoplenty:wooded_wasteland"
+			rewards: [{
+				id: "0775978E2FE946AB"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -350,7 +488,6 @@
 				"6F316170A491D831"
 				"733A80C58B2E6D10"
 				"745F3C2EC137C6A1"
-				"636F99A8C3AE89EA"
 				"7D9CA5A832A730E3"
 				"062FFBD61006DC2A"
 				"2C2DDEC452DC6CB6"
@@ -361,9 +498,7 @@
 				"345AA73230BEA4C2"
 				"4D2AB5CD9F8780EC"
 				"6EEB82785A169BA9"
-				"0F4C5FC17478F66B"
 				"0EB317326E957B85"
-				"1020DC32A8F9771C"
 				"7B6CBF7A0C32C70F"
 				"59FE05CA9601186A"
 				"7454A3E8863009EA"
@@ -384,7 +519,6 @@
 				"032BE322848DE466"
 				"22F69BCBA5165137"
 				"01809B7D350B976A"
-				"1E51D91FDD96676C"
 				"7E63BDA4CE19823E"
 				"4E5212E191115DB0"
 				"0C5E30992DD4963B"
@@ -404,6 +538,7 @@
 			}]
 		}
 		{
+			icon: "biomesoplenty:white_sand"
 			x: 2.0d
 			y: -3.0d
 			id: "7D9CA5A832A730E3"
@@ -411,6 +546,11 @@
 				id: "306EB5543A828F24"
 				type: "biome"
 				biome: "biomesoplenty:tropic_beach"
+			}]
+			rewards: [{
+				id: "0CA7CFD82597C1CF"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -423,6 +563,11 @@
 				icon: "securitycraft:reinforced_basalt"
 				biome: "biomesoplenty:volcanic_plains"
 			}]
+			rewards: [{
+				id: "5863024BCA7E28E2"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 1.0d
@@ -433,6 +578,11 @@
 				type: "biome"
 				icon: "minecraft:fire_charge"
 				biome: "biomesoplenty:burnt_forest"
+			}]
+			rewards: [{
+				id: "79BB42F48DF0D15F"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -445,6 +595,11 @@
 				type: "biome"
 				biome: "biomesoplenty:coniferous_lakes"
 			}]
+			rewards: [{
+				id: "6DF1AE4CEB69F342"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 3.0d
@@ -455,6 +610,11 @@
 				type: "biome"
 				icon: "biomesoplenty:willow_vine"
 				biome: "biomesoplenty:deep_bayou"
+			}]
+			rewards: [{
+				id: "43844D89F596228B"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -467,6 +627,11 @@
 				icon: "minecraft:bone"
 				biome: "biomesoplenty:dry_boneyard"
 			}]
+			rewards: [{
+				id: "1C247D198F07BA3E"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 3.0d
@@ -477,6 +642,11 @@
 				type: "biome"
 				icon: "biomesoplenty:fir_sapling"
 				biome: "biomesoplenty:fir_clearing"
+			}]
+			rewards: [{
+				id: "3475F385B45893EA"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -489,6 +659,11 @@
 				icon: "minecraft:poppy"
 				biome: "biomesoplenty:flower_meadow"
 			}]
+			rewards: [{
+				id: "25FFE39F3320A519"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 3.0d
@@ -500,8 +675,14 @@
 				icon: "minecraft:red_mushroom"
 				biome: "biomesoplenty:fungal_field"
 			}]
+			rewards: [{
+				id: "06440624AC11C179"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "minecraft:podzol"
 			x: 3.0d
 			y: -2.0d
 			id: "6EEB82785A169BA9"
@@ -510,18 +691,14 @@
 				type: "biome"
 				biome: "biomesoplenty:grove_clearing"
 			}]
-		}
-		{
-			x: 3.0d
-			y: -3.0d
-			id: "0F4C5FC17478F66B"
-			tasks: [{
-				id: "7F3B10E07195968A"
-				type: "biome"
-				biome: "biomesoplenty:grove_lakes"
+			rewards: [{
+				id: "4FAC847314C00F31"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
+			icon: "biomesoplenty:violet"
 			x: -3.0d
 			y: -3.0d
 			id: "0EB317326E957B85"
@@ -530,15 +707,10 @@
 				type: "biome"
 				biome: "biomesoplenty:highland_moor"
 			}]
-		}
-		{
-			x: -3.0d
-			y: -2.0d
-			id: "1020DC32A8F9771C"
-			tasks: [{
-				id: "386F1D4CB58BC672"
-				type: "biome"
-				biome: "biomesoplenty:jade_grassland"
+			rewards: [{
+				id: "7E4844660FE2237B"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -551,6 +723,11 @@
 				icon: "biomesoplenty:lavender"
 				biome: "biomesoplenty:lavender_forest"
 			}]
+			rewards: [{
+				id: "40395BD2139D9071"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: -3.0d
@@ -561,6 +738,11 @@
 				type: "biome"
 				icon: "minecraft:acacia_sapling"
 				biome: "biomesoplenty:lush_savanna"
+			}]
+			rewards: [{
+				id: "71CFBD642F78DD02"
+				type: "loot"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -573,6 +755,11 @@
 				icon: "biomesoplenty:willow_sapling"
 				biome: "biomesoplenty:bayou_mangrove"
 			}]
+			rewards: [{
+				id: "3EFA1BA7D15C44D7"
+				type: "loot"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: -3.0d
@@ -583,6 +770,11 @@
 				type: "biome"
 				icon: "minecraft:cornflower"
 				biome: "biomesoplenty:meadow_forest"
+			}]
+			rewards: [{
+				id: "5FDFECA526105BDB"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -595,6 +787,11 @@
 				icon: "minecraft:dead_bush"
 				biome: "biomesoplenty:dead_swamp"
 			}]
+			rewards: [{
+				id: "56D63B461D4365C4"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: -3.0d
@@ -605,6 +802,11 @@
 				type: "biome"
 				icon: "biomesoplenty:magic_leaves"
 				biome: "biomesoplenty:mystic_plains"
+			}]
+			rewards: [{
+				id: "2EC1D654544ECE5A"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -617,6 +819,11 @@
 				icon: "architects_palette:twisted_leaves"
 				biome: "biomesoplenty:ominous_mire"
 			}]
+			rewards: [{
+				id: "063E17361B1890F2"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: -1.0d
@@ -627,6 +834,11 @@
 				type: "biome"
 				icon: "minecraft:mossy_cobblestone"
 				biome: "biomesoplenty:overgrown_fungal_jungle"
+			}]
+			rewards: [{
+				id: "7959D634C665E351"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -639,6 +851,11 @@
 				icon: "minecraft:gold_ingot"
 				biome: "biomesoplenty:golden_prairie"
 			}]
+			rewards: [{
+				id: "48C0755163C918D6"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 1.0d
@@ -649,6 +866,11 @@
 				type: "biome"
 				icon: "minecraft:pumpkin"
 				biome: "biomesoplenty:seasonal_pumpkin_patch"
+			}]
+			rewards: [{
+				id: "7E3898799825FB0F"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
@@ -661,6 +883,11 @@
 				icon: "minecraft:jungle_sapling"
 				biome: "biomesoplenty:rainforest_cliffs"
 			}]
+			rewards: [{
+				id: "61721865992C877B"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			x: 3.0d
@@ -672,10 +899,15 @@
 				icon: "minecraft:water_bucket"
 				biome: "biomesoplenty:rainforest_floodplain"
 			}]
+			rewards: [{
+				id: "1FA4C93115347C1F"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: 4.0d
-			y: 4.0d
+			x: 3.0d
+			y: -5.0d
 			id: "0268769C4822FEA1"
 			tasks: [{
 				id: "7B346A1D4EE6359F"
@@ -683,10 +915,15 @@
 				icon: "biomesoplenty:redwood_log"
 				biome: "biomesoplenty:redwood_hills"
 			}]
+			rewards: [{
+				id: "3659ACD641E52583"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
+			x: -1.0d
+			y: -5.0d
 			id: "044607A968D3A5BF"
 			tasks: [{
 				id: "6CCAB8A9E93A77C4"
@@ -694,10 +931,15 @@
 				icon: "minecraft:golden_apple"
 				biome: "biomesoplenty:seasonal_orchard"
 			}]
+			rewards: [{
+				id: "091FABBB0DEF492F"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 3.0d
+			y: -3.0d
 			id: "379E8C2E692AE0CB"
 			tasks: [{
 				id: "3DE4A90A13E0D5BC"
@@ -705,20 +947,31 @@
 				icon: "atum:shrub"
 				biome: "biomesoplenty:shrubland_hills"
 			}]
+			rewards: [{
+				id: "2D04F2ECF7EB3323"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: -4.0d
-			y: -4.0d
+			icon: "biomesoplenty:fir_sapling"
+			x: -3.0d
+			y: -5.0d
 			id: "0B1BABF5E8AC6D07"
 			tasks: [{
 				id: "1ACB5B58CE6BC52F"
 				type: "biome"
 				biome: "biomesoplenty:snowy_fir_clearing"
 			}]
+			rewards: [{
+				id: "528774E333933226"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: -4.0d
-			y: 4.0d
+			x: 2.0d
+			y: -5.0d
 			id: "3058470240EC15A8"
 			tasks: [{
 				id: "095632173DF4D457"
@@ -727,29 +980,47 @@
 				disable_toast: true
 				biome: "biomesoplenty:snowy_maple_forest"
 			}]
+			rewards: [{
+				id: "657486A1BEB1BC29"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: -4.0d
-			y: -3.0d
+			icon: "minecraft:bamboo"
+			x: -2.0d
+			y: -5.0d
 			id: "032BE322848DE466"
 			tasks: [{
 				id: "6E5F2B5E9CFE43A1"
 				type: "biome"
 				biome: "biomesoplenty:tropic_plains"
 			}]
+			rewards: [{
+				id: "7996B98E1421BB5F"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: 4.0d
-			y: -3.0d
+			icon: "minecraft:stone"
+			x: 3.0d
+			y: -4.0d
 			id: "22F69BCBA5165137"
 			tasks: [{
 				id: "6B8833661DB237D9"
 				type: "biome"
 				biome: "biomesoplenty:tundra_basin"
 			}]
+			rewards: [{
+				id: "6BC41116648068E1"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: 4.0d
+			icon: "biomesoplenty:maple_sapling"
+			x: 2.0d
 			y: -4.0d
 			id: "01809B7D350B976A"
 			tasks: [{
@@ -757,19 +1028,15 @@
 				type: "biome"
 				biome: "biomesoplenty:tundra_bog"
 			}]
-		}
-		{
-			x: 3.0d
-			y: -4.0d
-			id: "1E51D91FDD96676C"
-			tasks: [{
-				id: "1D9FD37FAAF94BCE"
-				type: "biome"
-				biome: "biomesoplenty:wetland_marsh"
+			rewards: [{
+				id: "617C7F851B46A660"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
-			x: 2.0d
+			icon: "minecraft:acacia_sapling"
+			x: 1.0d
 			y: -4.0d
 			id: "7E63BDA4CE19823E"
 			tasks: [{
@@ -777,18 +1044,30 @@
 				type: "biome"
 				biome: "biomesoplenty:wooded_scrubland"
 			}]
+			rewards: [{
+				id: "464B6B48D7F7787D"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "biomesoplenty:dried_salt"
 			x: 1.0d
-			y: -4.0d
+			y: -3.0d
 			id: "4E5212E191115DB0"
 			tasks: [{
 				id: "66FD1059F9383240"
 				type: "biome"
-				biome: "biomesoplenty:wooded_wasteland"
+				biome: "biomesoplenty:wasteland"
+			}]
+			rewards: [{
+				id: "1D816B8B8641AFE4"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 		{
+			icon: "biomesoplenty:origin_grass_block"
 			x: 0.0d
 			y: -3.0d
 			id: "0C5E30992DD4963B"
@@ -797,8 +1076,14 @@
 				type: "biome"
 				biome: "biomesoplenty:origin_valley"
 			}]
+			rewards: [{
+				id: "41E69822C76DDE6D"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "biomesoplenty:rainbow_birch_sapling"
 			x: -1.0d
 			y: -4.0d
 			id: "7287FB80B7F1C0E9"
@@ -807,8 +1092,14 @@
 				type: "biome"
 				biome: "biomesoplenty:rainbow_hills"
 			}]
+			rewards: [{
+				id: "68B5C89A16B85E4E"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "biomesoplenty:palm_sapling"
 			x: -2.0d
 			y: -4.0d
 			id: "58A136CD4ABC4C9A"
@@ -817,8 +1108,14 @@
 				type: "biome"
 				biome: "biomesoplenty:tropics"
 			}]
+			rewards: [{
+				id: "429D45A746FEB097"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
+			icon: "minecraft:magma_block"
 			x: -3.0d
 			y: -4.0d
 			id: "0358315F5A960BB5"
@@ -827,19 +1124,31 @@
 				type: "biome"
 				biome: "biomesoplenty:volcano"
 			}]
+			rewards: [{
+				id: "64516514D89E6F6D"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			icon: "biomesoplenty:nether_crystal"
+			x: 0.0d
+			y: -4.0d
 			id: "34FFA9A943AE51EE"
 			tasks: [{
 				id: "4AC33E2143ADE4A0"
 				type: "biome"
 				biome: "biomesoplenty:crystalline_chasm"
 			}]
+			rewards: [{
+				id: "0DFC6768111A67C4"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: -4.0d
+			icon: "biomesoplenty:bramble"
+			x: -3.0d
 			y: -2.0d
 			id: "4E5E2A32D5A0AB4B"
 			tasks: [{
@@ -847,27 +1156,42 @@
 				type: "biome"
 				biome: "biomesoplenty:undergrowth"
 			}]
+			rewards: [{
+				id: "293500148DBC5281"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
 			icon: "biomesoplenty:flesh"
-			x: -4.0d
-			y: 3.0d
+			x: 1.0d
+			y: -5.0d
 			id: "7148110C6F8EDBB0"
 			tasks: [{
 				id: "6E7717760F64B320"
 				type: "biome"
 				biome: "biomesoplenty:visceral_heap"
 			}]
+			rewards: [{
+				id: "2933E6D658055371"
+				type: "random"
+				table_id: 3664865656145767368L
+			}]
 		}
 		{
-			x: -4.0d
-			y: 2.0d
+			x: 0.0d
+			y: -5.0d
 			id: "5AC060857680352C"
 			tasks: [{
 				id: "45D899BC89581542"
 				type: "biome"
 				icon: "minecraft:blackstone"
 				biome: "biomesoplenty:withered_abyss"
+			}]
+			rewards: [{
+				id: "7C2ED428089EA9E4"
+				type: "random"
+				table_id: 3664865656145767368L
 			}]
 		}
 	]

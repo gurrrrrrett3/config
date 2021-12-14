@@ -1,0 +1,19 @@
+{
+	id: "32DC37E5A018EBC8"
+	order_index: 2
+	title: "B o' P"
+	loot_size: 16
+	rewards: [
+		{ item: "minecraft:mossy_cobblestone", count: 16 }
+		{ item: "pamhc2crops:aridgarden", weight: 2 }
+		{ item: "pamhc2crops:frostgarden", weight: 2 }
+		{ item: "pamhc2crops:shadedgarden", weight: 2 }
+		{ item: "pamhc2crops:soggygarden", weight: 2 }
+		{ item: "pamhc2crops:tropicalgarden", weight: 2 }
+		{ item: "pamhc2crops:windygarden", weight: 2 }
+		{ item: "farmersdelight:tatami", count: 16 }
+		{ item: "xkdeco:maya_mossy_stonebricks", count: 16 }
+		{ item: "upgrade_aquatic:moss_coralstone", count: 16 }
+		{ item: "architects_palette:heavy_mossy_stone_bricks", count: 16 }
+	]
+}

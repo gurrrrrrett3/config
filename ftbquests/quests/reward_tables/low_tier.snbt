@@ -4,27 +4,11 @@
 	title: "Low Tier"
 	loot_size: 1
 	rewards: [
-		{
-			xp: 100
-			type: "xp"
-			weight: 10
-		}
-		{
-			xp_levels: 5
-			type: "xp_levels"
-			weight: 10
-		}
-		{
-			xp_levels: 3
-			type: "xp_levels"
-			weight: 10
-		}
-		{
-			xp_levels: 1
-			type: "xp_levels"
-			weight: 10
-		}
-		{ item: "minecraft:diamond" }
-		{ item: "minecraft:spruce_log", count: 32 }
+		{ item: "minecraft:spruce_log", count: 16, weight: 3 }
+		{ item: "minecraft:redstone_block", count: 4 }
+		{ item: "minecraft:iron_ingot", count: 3 }
+		{ item: "minecraft:gravel", count: 8, weight: 2 }
+		{ item: "cyclic:apple_emerald" }
+		{ item: "minecraft:lapis_lazuli", count: 16 }
 	]
 }

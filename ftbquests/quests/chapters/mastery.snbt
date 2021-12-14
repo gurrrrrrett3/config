@@ -17,10 +17,7 @@
 				"I don't really know how, and I didn't expect anyone to finish it!"
 				"Amazing job!"
 			]
-			dependencies: [
-				"498C60E05B69F476"
-				"5419DA220AD71E5B"
-			]
+			dependencies: ["498C60E05B69F476"]
 			size: 3.0d
 			id: "4D8C374AA5B0D481"
 			tasks: [{
@@ -44,17 +41,6 @@
 				id: "7C5406587DFDB0F1"
 				type: "checkmark"
 				title: "Biomes o' Plenty Mastery"
-			}]
-		}
-		{
-			title: "Banger Alert"
-			x: 0.0d
-			y: 3.0d
-			id: "5419DA220AD71E5B"
-			tasks: [{
-				id: "200FD3B50325F5BB"
-				type: "item"
-				item: "biomesoplenty:music_disc_wanderer"
 			}]
 		}
 	]
