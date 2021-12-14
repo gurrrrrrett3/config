@@ -66,7 +66,7 @@
 	[general.energy_conversion]
 		#Displayed energy type in Mekanism GUIs.
 		#Allowed Values: J, FE, EU
-		energyType = "FE"
+		energyType = "EU"
 		#Disables Forge Energy (FE,RF,IF,uF,CF) power integration. Requires world restart (server-side option in SMP).
 		blacklistForge = false
 		#Maximum Joules per mB of Steam. Also affects Thermoelectric Boiler.

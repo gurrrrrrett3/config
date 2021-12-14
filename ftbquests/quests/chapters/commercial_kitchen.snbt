@@ -1,10 +1,11 @@
 {
 	id: "18C59892FD6F0FC0"
 	group: "18E070709623BFF7"
-	order_index: 1
+	order_index: 0
 	filename: "commercial_kitchen"
 	title: "Commercial Kitchen"
-	default_quest_shape: ""
+	subtitle: ["A Culinary Tour De Force"]
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -966,6 +967,237 @@
 				id: "23ACD2D19977CB2C"
 				type: "item"
 				item: "pamhc2foodextended:grapefruitsodaitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: -9.0d
+			id: "7E3948064E7470F6"
+			tasks: [{
+				id: "3D196D9218A37A22"
+				type: "item"
+				item: "pamhc2foodextended:grapesodaitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -17.5d
+			y: -9.0d
+			id: "71D87DF310899F0D"
+			tasks: [{
+				id: "66081763D1ADDC78"
+				type: "item"
+				item: "pamhc2foodextended:hazelnutchocolateitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -16.5d
+			y: -9.0d
+			id: "70A93075622EE03B"
+			tasks: [{
+				id: "17458084C071307F"
+				type: "item"
+				item: "pamhc2foodextended:lemonlimesodaitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -15.5d
+			y: -9.0d
+			id: "48E57D35FFC1EB61"
+			tasks: [{
+				id: "23E5BB93E10C178E"
+				type: "item"
+				item: "pamhc2foodextended:maplecandiedbaconitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -14.5d
+			y: -9.0d
+			id: "7ADE8AABC9FA81B6"
+			tasks: [{
+				id: "27233B0BC06294FC"
+				type: "item"
+				item: "pamhc2foodextended:marzipanitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -23.5d
+			y: -8.0d
+			id: "38FB6EF2D45C1437"
+			tasks: [{
+				id: "12171A1D1F806F76"
+				type: "item"
+				item: "pamhc2foodextended:orangesodaitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -22.5d
+			y: -8.0d
+			id: "140F93D93445A3F0"
+			tasks: [{
+				id: "224B70065815AC30"
+				type: "item"
+				item: "pamhc2foodextended:peanutbuttercupitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -21.5d
+			y: -8.0d
+			id: "32100FDD8F026CE7"
+			tasks: [{
+				id: "3F290382996D4CA4"
+				type: "item"
+				item: "pamhc2foodextended:peppermintitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -20.5d
+			y: -8.0d
+			id: "55A3D53D672F1A4D"
+			tasks: [{
+				id: "63B711BC61CEB378"
+				type: "item"
+				item: "pamhc2foodextended:popcornitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -19.5d
+			y: -8.0d
+			id: "510E85BDD98C4333"
+			tasks: [{
+				id: "2EF134D584C5A8A3"
+				type: "item"
+				item: "pamhc2foodextended:pralinesitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: -8.0d
+			id: "6B529DCC84E11F64"
+			tasks: [{
+				id: "2B7B218519E22882"
+				type: "item"
+				item: "pamhc2foodextended:rootbeerfloatitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -17.5d
+			y: -8.0d
+			id: "5E4BA7F6350D346C"
+			tasks: [{
+				id: "575D1ACE787740D4"
+				type: "item"
+				item: "pamhc2foodextended:rootbeersodaitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -16.5d
+			y: -8.0d
+			id: "31BE392F005591A0"
+			tasks: [{
+				id: "4D253D84BA9EBE8D"
+				type: "item"
+				item: "pamhc2foodextended:sesamesnapsitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -15.5d
+			y: -8.0d
+			id: "105566045E442B0A"
+			tasks: [{
+				id: "67FCB8E786165274"
+				type: "item"
+				item: "pamhc2foodextended:sourcreamandonionpotatochipsitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -14.5d
+			y: -8.0d
+			id: "70C7BAE63289D0AF"
+			tasks: [{
+				id: "5ADCC8788D55281E"
+				type: "item"
+				item: "pamhc2foodextended:strawberrysodaitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -23.5d
+			y: -7.0d
+			id: "00E5E0EA97C0DCC6"
+			tasks: [{
+				id: "43BFEF1493B56EDA"
+				type: "item"
+				item: "pamhc2foodextended:theatreboxitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -22.5d
+			y: -7.0d
+			id: "7B2AF6C24A3CE4D3"
+			tasks: [{
+				id: "10DDBACE90AE6656"
+				type: "item"
+				item: "pamhc2foodextended:ediblerootitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -21.5d
+			y: -7.0d
+			id: "051E406936B3664B"
+			tasks: [{
+				id: "55216A8BB2F30A11"
+				type: "item"
+				item: "pamhc2foodextended:baconmushroomburgeritem"
+				count: 8L
+			}]
+		}
+		{
+			x: -20.5d
+			y: -7.0d
+			id: "37E23FBA0CD9AACD"
+			tasks: [{
+				id: "664FD15DA1A88784"
+				type: "item"
+				item: "pamhc2foodextended:bamboosteamedriceitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -19.5d
+			y: -7.0d
+			id: "68FA84A6D26267CD"
+			tasks: [{
+				id: "06A499D705252FA5"
+				type: "item"
+				item: "pamhc2foodextended:bananasplititem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: -7.0d
+			id: "6706D6B700B8D8E5"
+			tasks: [{
+				id: "425D5543C8FE9D38"
+				type: "item"
+				item: "pamhc2foodextended:biscuititem"
 				count: 8L
 			}]
 		}
