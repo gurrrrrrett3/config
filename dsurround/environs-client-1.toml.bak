@@ -55,10 +55,10 @@
 	#Show morning fog that eventually burns off
 	"Morning Fog" = true
 	#Higher the player elevation the more haze that is experienced
-	"Elevation Haze" = false
+	"Elevation Haze" = true
 	#Percentage chance morning fog will occur
 	#Range: 1 ~ 100
-	"Morning Fog Chance Percentage" = 60
+	"Morning Fog Chance Percentage" = 80
 	#Enable biome specific fog density and color
 	"Biome Fog" = true
 

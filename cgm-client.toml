@@ -12,11 +12,11 @@
 		#If true, a sound will play when you successfully hit a headshot on a entity with a gun
 		playSoundWhenHeadshot = true
 		#The sound to play when a headshot occurs
-		headshotSound = "minecraft:entity.arrow.hit_player"
+		headshotSound = "minecraft:entity.player.attack.knockback"
 		#If true, a sound will play when you successfully hit a critical on a entity with a gun
 		playSoundWhenCritical = true
 		#The sound to play when a critical occurs
-		criticalSound = "minecraft:entity.arrow.hit_player"
+		criticalSound = "minecraft:entity.player.attack.crit"
 
 	#Configuration for display related options
 	[client.display]

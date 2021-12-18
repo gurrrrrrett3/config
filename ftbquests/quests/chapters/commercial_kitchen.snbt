@@ -1201,5 +1201,390 @@
 				count: 8L
 			}]
 		}
+		{
+			x: -17.5d
+			y: -7.0d
+			id: "0AEF3DCACB80CAA0"
+			tasks: [{
+				id: "42313B5E9562D4EC"
+				type: "item"
+				item: "pamhc2foodextended:biscuitsandgravyitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -16.5d
+			y: -7.0d
+			id: "0DEEACCE41BEC9EE"
+			tasks: [{
+				id: "7EA455564574A18C"
+				type: "item"
+				item: "pamhc2foodextended:bltitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -15.5d
+			y: -7.0d
+			id: "12F8174B58D20B47"
+			tasks: [{
+				id: "5820E11218CD1E2F"
+				type: "item"
+				item: "pamhc2foodextended:breadedporkchopitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -14.5d
+			y: -7.0d
+			id: "193542C05C3C13D2"
+			tasks: [{
+				id: "6EC531E3153FAC5F"
+				type: "item"
+				item: "pamhc2foodextended:broccolimacitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -23.5d
+			y: -6.0d
+			id: "0B9DEAF7E803743B"
+			tasks: [{
+				id: "62164A1C69F111F2"
+				type: "item"
+				item: "pamhc2foodextended:brownieitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -22.5d
+			y: -6.0d
+			id: "082FC37292041486"
+			tasks: [{
+				id: "1C3A8A2F45A0BA8B"
+				type: "item"
+				item: "pamhc2foodextended:carrotjuiceitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -21.5d
+			y: -6.0d
+			id: "27623A2B3261AB60"
+			tasks: [{
+				id: "5E4A8F36624F792D"
+				type: "item"
+				item: "pamhc2foodextended:cheezepuffsitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -20.5d
+			y: -6.0d
+			id: "5C250065995CF886"
+			tasks: [{
+				id: "4ED6355405810DA4"
+				type: "item"
+				item: "pamhc2foodextended:cherryicecreamitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -19.5d
+			y: -6.0d
+			id: "09153592E7775A17"
+			tasks: [{
+				id: "16956980C9DD3371"
+				type: "item"
+				item: "pamhc2foodextended:chickennoodlesoupitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: -6.0d
+			id: "49AAE6D24229667D"
+			tasks: [{
+				id: "50B587917FBB8ECD"
+				type: "item"
+				item: "pamhc2foodextended:chilidogitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -17.5d
+			y: -6.0d
+			id: "5F69F205F9EA1BFD"
+			tasks: [{
+				id: "3E4B847D0044E1E8"
+				type: "item"
+				item: "pamhc2foodextended:chiliitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -16.5d
+			y: -6.0d
+			id: "21A9BC9735AAC673"
+			tasks: [{
+				id: "295E0101CF8627EA"
+				type: "item"
+				item: "pamhc2foodextended:chocolatemilkitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -15.5d
+			y: -6.0d
+			id: "2E6826D629CC9F7A"
+			tasks: [{
+				id: "173EDF91EE5D99BF"
+				type: "item"
+				item: "pamhc2foodextended:cinnamonappleoatmealitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -14.5d
+			y: -6.0d
+			id: "19DA71C9641B4B79"
+			tasks: [{
+				id: "070AF8A61C1E7468"
+				type: "item"
+				item: "pamhc2foodextended:cinnamonsugardonutitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -23.5d
+			y: -5.0d
+			id: "615C5879C86A09C7"
+			tasks: [{
+				id: "794C8C43D77F41EF"
+				type: "item"
+				item: "pamhc2foodextended:cinnamontoastitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -21.5d
+			y: -5.0d
+			id: "3728636CE86EAD64"
+			tasks: [{
+				id: "050FEC94F9D22AB8"
+				type: "item"
+				item: "pamhc2foodextended:cornbreaditem"
+				count: 8L
+			}]
+		}
+		{
+			x: -22.5d
+			y: -5.0d
+			id: "1F528839C686C2E8"
+			tasks: [{
+				id: "46AAEDBD7C7F6C29"
+				type: "item"
+				item: "pamhc2foodextended:coleslawitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -20.5d
+			y: -5.0d
+			id: "5E37EAB18DA313C2"
+			tasks: [{
+				id: "1119DADD342D0E32"
+				type: "item"
+				item: "pamhc2foodextended:corndogitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -19.5d
+			y: -5.0d
+			id: "111569B57EDBEB90"
+			tasks: [{
+				id: "278514BB959965E3"
+				type: "item"
+				item: "pamhc2foodextended:cornflakesitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: -5.0d
+			id: "20A492C1A689CAF1"
+			tasks: [{
+				id: "6F168C890EB611DA"
+				type: "item"
+				item: "pamhc2foodextended:cornonthecobitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -17.5d
+			y: -5.0d
+			id: "6CCD49F30148C5C7"
+			tasks: [{
+				id: "18C174CD4B816BBB"
+				type: "item"
+				item: "pamhc2foodextended:crispyricepuffcerealitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -16.5d
+			y: -5.0d
+			id: "5CADFB6B24EE062A"
+			tasks: [{
+				id: "0C57941DBDB6E13D"
+				type: "item"
+				item: "pamhc2foodextended:delightedmealitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -15.5d
+			y: -5.0d
+			id: "563C5E15A89AD34E"
+			tasks: [{
+				id: "50701D7823A3B9C6"
+				type: "item"
+				item: "pamhc2foodextended:deluxecheeseburgeritem"
+				count: 8L
+			}]
+		}
+		{
+			x: -14.5d
+			y: -5.0d
+			id: "0420EF202E13FD21"
+			tasks: [{
+				id: "5339527623E0EDC9"
+				type: "item"
+				item: "pamhc2foodextended:eggsaladitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -23.5d
+			y: -4.0d
+			id: "03972B188D4D548A"
+			tasks: [{
+				id: "483574A19E6B68F7"
+				type: "item"
+				item: "pamhc2foodextended:epicbltitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -22.5d
+			y: -4.0d
+			id: "3900449F768B7830"
+			tasks: [{
+				id: "2AE447196DD20685"
+				type: "item"
+				item: "pamhc2foodextended:frenchtoastitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -21.5d
+			y: -4.0d
+			id: "611D4349BB72EE25"
+			tasks: [{
+				id: "2B2F3FA47E1B3B69"
+				type: "item"
+				item: "pamhc2foodextended:frosteddonutitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -20.5d
+			y: -4.0d
+			id: "5BD611259BCC24F7"
+			tasks: [{
+				id: "1269DE94C2E15188"
+				type: "item"
+				item: "pamhc2foodextended:greenbeancasseroleitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -19.5d
+			y: -4.0d
+			id: "49DBBA724BBB9342"
+			tasks: [{
+				id: "094A22366CA2F3BD"
+				type: "item"
+				item: "pamhc2foodextended:loadedbakedpotatoitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: -4.0d
+			id: "70E6313144EC1949"
+			tasks: [{
+				id: "7B5DDE3058CC2169"
+				type: "item"
+				item: "pamhc2foodextended:mapleoatmealitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -17.5d
+			y: -4.0d
+			id: "302893CAF57F7CAB"
+			tasks: [{
+				id: "02B3F544DE64D936"
+				type: "item"
+				item: "pamhc2foodextended:maplesyruppancakesitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -16.5d
+			y: -4.0d
+			id: "09AD134FFADB6321"
+			tasks: [{
+				id: "680B3A11F7874236"
+				type: "item"
+				item: "pamhc2foodextended:maplesyrupwafflesitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -15.5d
+			y: -4.0d
+			id: "11161D3569941243"
+			tasks: [{
+				id: "1EE79CF18427F4EA"
+				type: "item"
+				item: "pamhc2foodextended:mcpamitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -14.5d
+			y: -4.0d
+			id: "6BF67EC642499E70"
+			tasks: [{
+				id: "5AE352CF899D1492"
+				type: "item"
+				item: "pamhc2foodextended:mozzerellasticksitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -23.5d
+			y: -3.0d
+			id: "2C874F9CC7CE3247"
+			tasks: [{
+				id: "67CDFE23D0F51669"
+				type: "item"
+				item: "pamhc2foodextended:pancakesitem"
+				count: 8L
+			}]
+		}
 	]
 }

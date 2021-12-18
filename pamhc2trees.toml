@@ -16,13 +16,13 @@
 ["Tweak World Generation Rates"]
 	#Chance of warm fruit trees generating in the world. Higher numbers indicate a lower probability (Default: 5000)
 	#Range: 1 ~ 1000000000
-	"Probability of warm fruit trees generating" = 4000
+	"Probability of warm fruit trees generating" = 5000
 	#Chance of cold fruit trees generating in the world. Higher numbers indicate a lower probability (Default: 5000)
 	#Range: 1 ~ 1000000000
-	"Probability of cold fruit trees generating" = 4000
+	"Probability of cold fruit trees generating" = 5000
 	#Chance of temperate fruit trees generating in the world. Higher numbers indicate a lower probability (Default: 5000)
 	#Range: 1 ~ 1000000000
-	"Probability of temperate fruit trees generating" = 4000
+	"Probability of temperate fruit trees generating" = 5000
 
 ["Enable/Disable Garden World Generation"]
 	#Should hazelnut trees generate in world

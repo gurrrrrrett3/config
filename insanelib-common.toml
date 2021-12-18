@@ -1,7 +1,7 @@
 
 [Base]
 	#Set custom blocks appearing when fluids merge
-	"Enable Fluid Mixin" = true
+	"Enable Fluid Mixin" = false
 	#No more boring 3D Area of Effect Clouds
 	"Enable Area Effect Cloud 3D" = true
 	#A few fixes

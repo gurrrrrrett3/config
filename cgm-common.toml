@@ -74,7 +74,7 @@
 	[common.missiles]
 		#The max distance which the explosion is effective to
 		#Range: 0.0 ~ 1.7976931348623157E308
-		explosionRadius = 8.0
+		explosionRadius = 5.0
 
 	#Properties relating to projectile spread
 	[common.projectile_spread]

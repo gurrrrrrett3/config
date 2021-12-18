@@ -14,10 +14,10 @@
 		[tools_and_abilities.wrought_helm.armor_config]
 			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
 			#Range: > 0
-			damage_reduction = 2
+			damage_reduction = 4
 			#See official Minecraft Wiki for an explanation of how armor toughness works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness = 0.0
+			toughness = 3.0
 
 	[tools_and_abilities.suns_blessing]
 		#Range: 0.0 ~ 1.7976931348623157E308
@@ -32,7 +32,7 @@
 	[tools_and_abilities.ice_crystal]
 		#Multiply all damage done with the ice crystal by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 1.0
+		attack_multiplier = 1.4
 		#Ice crystal durability
 		#Range: > 1
 		durability = 600
@@ -75,10 +75,10 @@
 	[tools_and_abilities.naga_fang_dagger]
 		#Damage multiplier when attacking from behind
 		#Range: 0.0 ~ 1.7976931348623157E308
-		backstab_damage_mult = 2.0
+		backstab_damage_mult = 3.0
 		#Duration in ticks of the poison effect (20 ticks = 1 second).
 		#Range: > 0
-		poison_duration = 40
+		poison_duration = 160
 
 		[tools_and_abilities.naga_fang_dagger.tool_config]
 			#Tool attack damage

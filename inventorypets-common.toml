@@ -50,7 +50,7 @@
 	#Disable the Siamese pet (default:false)
 	disableSiamese = false
 	#Display the mod update message during startup (default:true)
-	showUpdateMessage = false
+	showUpdateMessage = true
 	#Disable the Dirt pet (default:false)
 	disableDirt = false
 	#Disable the Mickerson pet (default:false)

@@ -1,0 +1,26 @@
+{
+	id: "1DC4C4EEAC5BB010"
+	order_index: 4
+	title: "food mastery"
+	loot_size: 1
+	rewards: [
+		{ item: "mekanism:pellet_antimatter", count: 4 }
+		{ item: "minecraft:diamond_block", count: 10 }
+		{ item: "cyclic:inventory_cake" }
+		{ item: "minecraft:netherite_scrap", count: 24 }
+		{
+			item: {
+				id: "minecraft:paper"
+				Count: 1b
+				tag: {
+					display: {
+						Lore: [
+							"{\"text\":\"Text for lore line\",...}"
+							"{\"text\":\"Another text for the lore line\",...}"
+						]
+					}
+				}
+			}
+		}
+	]
+}

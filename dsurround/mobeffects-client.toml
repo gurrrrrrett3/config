@@ -28,12 +28,12 @@
 	"Player Footprint Style" = "LOWRES_SQUARE"
 	#Footstep master volume scale
 	#Range: 0 ~ 100
-	"Footstep Volume Scale" = 45
+	"Footstep Volume Scale" = 40
 
 #Options for mob effect generation
 ["Mob Effect Options"]
 	#Show arrow particle trail during flight
-	"Show Arrow Particle Trail" = true
+	"Show Arrow Particle Trail" = false
 	#Toolbar master volume scale
 	#Range: 0 ~ 100
 	"Toolbar Volume Scale" = 35
