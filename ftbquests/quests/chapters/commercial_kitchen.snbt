@@ -1916,5 +1916,500 @@
 				count: 8L
 			}]
 		}
+		{
+			x: -22.5d
+			y: 0.0d
+			id: "4B3B3D83DA47D5F1"
+			tasks: [{
+				id: "170AD06EAA9FD6E6"
+				type: "item"
+				item: "pamhc2foodextended:beetburgeritem"
+				count: 8L
+			}]
+		}
+		{
+			x: -21.5d
+			y: 0.0d
+			id: "5620F26CDACA32BF"
+			tasks: [{
+				id: "0F75FCC4C3F9B5DD"
+				type: "item"
+				item: "pamhc2foodextended:bentoboxitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -20.5d
+			y: 0.0d
+			id: "21C2C4AAB3EA5DE2"
+			tasks: [{
+				id: "3E3B00882250F88E"
+				type: "item"
+				item: "pamhc2foodextended:berrymeringuenestitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -19.5d
+			y: 0.0d
+			id: "4201676DE91D8C72"
+			tasks: [{
+				id: "3AF6B2F535D4280B"
+				type: "item"
+				item: "pamhc2foodextended:berryvinaigrettesaladitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 0.0d
+			id: "7E2976F0CB36DAEE"
+			tasks: [{
+				id: "7A03E44890D16A27"
+				type: "item"
+				item: "pamhc2foodextended:bibimbapitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 0.0d
+			id: "1A4BA161D5E1B5E6"
+			tasks: [{
+				id: "44BEC7A717AB5587"
+				type: "item"
+				item: "pamhc2foodextended:blackberrycobbleritem"
+				count: 8L
+			}]
+		}
+		{
+			x: -16.5d
+			y: 0.0d
+			id: "0220F69CA6E33D76"
+			tasks: [{
+				id: "0B1C883FFD62BB65"
+				type: "item"
+				item: "pamhc2foodextended:bolognasandwichitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 0.0d
+			id: "1E6AA32510D1464F"
+			tasks: [{
+				id: "7E40C396501CD98D"
+				type: "item"
+				item: "pamhc2foodextended:bratwurstitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 0.0d
+			id: "21B64BBF00A7C1B0"
+			tasks: [{
+				id: "0BBFA30E570BD19F"
+				type: "item"
+				item: "pamhc2foodextended:breakfastburritoitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -23.5d
+			y: 1.0d
+			id: "1754789F12C0DE54"
+			tasks: [{
+				id: "58E0702F9974C34C"
+				type: "item"
+				item: "pamhc2foodextended:briochebunitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -22.5d
+			y: 1.0d
+			id: "45150F18CCCB7EF6"
+			tasks: [{
+				id: "0FF8EA83EBEF37B4"
+				type: "item"
+				item: "pamhc2foodextended:broccolindipitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -21.5d
+			y: 1.0d
+			id: "0C932760BA6B51E5"
+			tasks: [{
+				id: "2649DB5781BB7404"
+				type: "item"
+				item: "pamhc2foodextended:bulgogiitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -20.5d
+			y: 1.0d
+			id: "0751F12025A910AB"
+			tasks: [{
+				id: "7FE8A6F8A8B75D5D"
+				type: "item"
+				item: "pamhc2foodextended:buttertartitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -19.5d
+			y: 1.0d
+			id: "2F3501201BB5E71F"
+			tasks: [{
+				id: "23D977A4EDA0794E"
+				type: "item"
+				item: "pamhc2foodextended:cactussoupitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 1.0d
+			id: "41F2FA4BF5AAF4E5"
+			tasks: [{
+				id: "01D50F192F4EBD5B"
+				type: "item"
+				item: "pamhc2foodextended:californiarollitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 1.0d
+			id: "6AB8158914DEEB33"
+			tasks: [{
+				id: "0F8A33B2C8737416"
+				type: "item"
+				item: "pamhc2foodextended:cantonesegreensitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -16.5d
+			y: 1.0d
+			id: "0BF306EA666CD521"
+			tasks: [{
+				id: "4D52081E3581B8D5"
+				type: "item"
+				item: "pamhc2foodextended:cantonesenoodlesitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 1.0d
+			id: "7D0D3A40851438D6"
+			tasks: [{
+				id: "5196A2FFB469F143"
+				type: "item"
+				item: "pamhc2foodextended:cashewchickenitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 1.0d
+			id: "04BE4D9DDC9956B3"
+			tasks: [{
+				id: "712DEC0E4D49D3DF"
+				type: "item"
+				item: "pamhc2foodextended:ceasarsaladitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -23.5d
+			y: 2.0d
+			id: "6C84EAB742948F3E"
+			tasks: [{
+				id: "171E25818FB9A621"
+				type: "item"
+				item: "pamhc2foodextended:celeryandpeanutbutteritem"
+				count: 8L
+			}]
+		}
+		{
+			x: -22.5d
+			y: 2.0d
+			id: "0115F12EF4707A13"
+			tasks: [{
+				id: "0CA316052796D17A"
+				type: "item"
+				item: "pamhc2foodextended:cevicheitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -21.5d
+			y: 2.0d
+			id: "45E27EE5E24207E8"
+			tasks: [{
+				id: "6B1A5B5EEA2ECC14"
+				type: "item"
+				item: "pamhc2foodextended:chaiteaitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -20.5d
+			y: 2.0d
+			id: "5458563EBC854B0C"
+			tasks: [{
+				id: "5DFCE78BA4AD1E1F"
+				type: "item"
+				item: "pamhc2foodextended:charsiuitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -19.5d
+			y: 2.0d
+			id: "73613F5E46463440"
+			tasks: [{
+				id: "0EE844667C158BB3"
+				type: "item"
+				item: "pamhc2foodextended:cheesedanishitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 2.0d
+			id: "5829A4B903E582FF"
+			tasks: [{
+				id: "524774B1BAB20EED"
+				type: "item"
+				item: "pamhc2foodextended:cheeseontoastitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 2.0d
+			id: "2B94720557CC53CB"
+			tasks: [{
+				id: "3CC16C011E1B6B26"
+				type: "item"
+				item: "pamhc2foodextended:cheesesteakitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -16.5d
+			y: 2.0d
+			id: "60AFEFFD80F9C281"
+			tasks: [{
+				id: "4B8B4E3EF6D62398"
+				type: "item"
+				item: "pamhc2foodextended:cherrycoconutchocolatebaritem"
+				count: 8L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 2.0d
+			id: "7447332E72F98C05"
+			tasks: [{
+				id: "46A9F8F71EC700E7"
+				type: "item"
+				item: "pamhc2foodextended:chickenandwafflesitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 2.0d
+			id: "3D32086BC3E9A57F"
+			tasks: [{
+				id: "2A3F3D0E21F046E2"
+				type: "item"
+				item: "pamhc2foodextended:chickenbiscuititem"
+				count: 8L
+			}]
+		}
+		{
+			x: -23.5d
+			y: 3.0d
+			id: "3446F1D11D963C7F"
+			tasks: [{
+				id: "0636C4D250144622"
+				type: "item"
+				item: "pamhc2foodextended:chickencelerycasseroleitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -22.5d
+			y: 3.0d
+			id: "349C86FF3AC4FFA4"
+			tasks: [{
+				id: "06D7165BA4943875"
+				type: "item"
+				item: "pamhc2foodextended:chickenchowmeinitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -21.5d
+			y: 3.0d
+			id: "7E9B95B209AA055D"
+			tasks: [{
+				id: "033B6236165A1479"
+				type: "item"
+				item: "pamhc2foodextended:chickencordonbleuitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -20.5d
+			y: 3.0d
+			id: "274D9828D42DA21D"
+			tasks: [{
+				id: "527E9C06C231363B"
+				type: "item"
+				item: "pamhc2foodextended:chickencurryitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -19.5d
+			y: 3.0d
+			id: "5AB67D1551A0FE50"
+			tasks: [{
+				id: "1DC1BB2F9051C53D"
+				type: "item"
+				item: "pamhc2foodextended:chickendinneritem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 3.0d
+			id: "241A7ABA65B3AD83"
+			tasks: [{
+				id: "25D3F511A55E979B"
+				type: "item"
+				item: "pamhc2foodextended:chickengumboitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 3.0d
+			id: "25AE14E45B3E1A1E"
+			tasks: [{
+				id: "7565921F4E2C2DC1"
+				type: "item"
+				item: "pamhc2foodextended:chickenkatsuitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -16.5d
+			y: 3.0d
+			id: "613C06A533668A12"
+			tasks: [{
+				id: "21885464AFB7A658"
+				type: "item"
+				item: "pamhc2foodextended:chickenparmasanitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 3.0d
+			id: "3D479F23E13F4C80"
+			tasks: [{
+				id: "326A1D991880DAC2"
+				type: "item"
+				item: "pamhc2foodextended:chikorollitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 3.0d
+			id: "01DF3EA1EAE50ECD"
+			tasks: [{
+				id: "2ED35E05D8F50034"
+				type: "item"
+				item: "pamhc2foodextended:chilipoppersitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -23.5d
+			y: 4.0d
+			id: "7427A08303DC612D"
+			tasks: [{
+				id: "3C1CA3219C29C3D4"
+				type: "item"
+				item: "pamhc2foodextended:chocolatemilkshakeitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -22.5d
+			y: 4.0d
+			id: "09BA6C1312BD2F6E"
+			tasks: [{
+				id: "47BA3CD8024B569B"
+				type: "item"
+				item: "pamhc2foodextended:chocolateorangebiscuititem"
+				count: 8L
+			}]
+		}
+		{
+			x: -21.5d
+			y: 4.0d
+			id: "244EAF9B996656F3"
+			tasks: [{
+				id: "3DC5A931EA9489B1"
+				type: "item"
+				item: "pamhc2foodextended:peanutchocolatebaritem"
+				count: 8L
+			}]
+		}
+		{
+			x: -20.5d
+			y: 4.0d
+			id: "17A98236688B6F04"
+			tasks: [{
+				id: "594F2217E201B824"
+				type: "item"
+				item: "pamhc2foodextended:chocolatesprinklecakeitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -19.5d
+			y: 4.0d
+			id: "62A62F4E7B823D92"
+			tasks: [{
+				id: "7A533959E2CC7316"
+				type: "item"
+				item: "pamhc2foodextended:chocovoxelsitem"
+				count: 8L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 4.0d
+			id: "77B669E85B3ED3B3"
+			tasks: [{
+				id: "346ECB21270875EB"
+				type: "item"
+				item: "pamhc2foodextended:chorizoitem"
+				count: 8L
+			}]
+		}
 	]
 }
