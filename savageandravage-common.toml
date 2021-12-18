@@ -4,7 +4,7 @@
 	[entities.creepers]
 		"Creepers drop Creeper Spores after they die from an explosion" = true
 		"Creepie explosions destroy blocks" = false
-		"Creeper explosions spawn creepies" = false
+		"Creeper explosions spawn creepies" = true
 		"Creeper explosions destroy blocks" = true
 
 	[entities.illagers]

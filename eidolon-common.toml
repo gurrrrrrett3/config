@@ -6,7 +6,7 @@
 	zombieBruteSpawnWeight = 40
 	#Spawn weight for wraith entity. Set to zero to disable spawning.
 	#Range: 0 ~ 1000
-	wraithSpawnWeight = 40
+	wraithSpawnWeight = 30
 
 #World generation settings
 [world]
